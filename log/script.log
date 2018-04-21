@@ -1,0 +1,42 @@
+2018-04-21 21:59:59,922 [Thread-2:9120] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python1704-linux\Blog_django\blog_project\blog\views.py", line 27, in index
+    return render(request,'index.html',locals())
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 205, in render
+    with context.bind_template(self):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\contextlib.py", line 82, in __enter__
+    return next(self.gen)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\context.py", line 263, in bind_template
+    updates.update(processor(self.request))
+TypeError: global_setting() takes 0 positional arguments but 1 was given
+2018-04-21 22:03:33,216 [Thread-3:2360] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2018-04-21 22:03:33,242 [Thread-5:9188] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2018-04-21 22:03:33,245 [Thread-6:8732] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2018-04-21 22:03:33,256 [Thread-4:9784] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2018-04-21 22:03:59,390 [Thread-10:7668] [django.request:152] [base:get_response] [WARNING]- Not Found: /index.html
+2018-04-21 22:04:04,433 [Thread-11:10108] [django.request:152] [base:get_response] [WARNING]- Not Found: /news.html
+2018-04-22 07:27:00,182 [Thread-3:10532] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2018-04-22 07:27:00,199 [Thread-4:9820] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2018-04-22 07:27:00,215 [Thread-5:8676] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2018-04-22 07:27:00,234 [Thread-6:1372] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2018-04-22 07:27:45,290 [Thread-10:10880] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2018-04-22 07:27:45,305 [Thread-11:10852] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2018-04-22 07:27:45,322 [Thread-12:10864] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2018-04-22 07:27:45,334 [Thread-13:8912] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2018-04-22 03:42:04,592 [Thread-3:7276] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2018-04-22 03:42:04,604 [Thread-4:3276] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2018-04-22 03:42:04,622 [Thread-5:8412] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2018-04-22 03:42:04,624 [Thread-6:3556] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2018-04-22 03:42:04,921 [Thread-7:3208] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico

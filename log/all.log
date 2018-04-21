@@ -3,3 +3,1072 @@
             WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
             ORDER BY name; args=None
 2018-04-21 21:34:07,379 [Dummy-1:4284] [django.db.backends:91] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2018-04-21 21:44:26,268 [Dummy-1:9236] [django.db.backends:91] [utils:execute] [DEBUG]- (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2018-04-21 21:44:26,278 [Dummy-1:9236] [django.db.backends:91] [utils:execute] [DEBUG]- (0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2018-04-21 21:46:19,275 [Dummy-1:8936] [django.db.backends:91] [utils:execute] [DEBUG]- (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2018-04-21 21:46:19,279 [Dummy-1:8936] [django.db.backends:91] [utils:execute] [DEBUG]- (0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2018-04-21 21:47:42,136 [Dummy-1:7804] [django.db.backends:91] [utils:execute] [DEBUG]- (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2018-04-21 21:47:42,139 [Dummy-1:7804] [django.db.backends:91] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2018-04-21 21:48:29,679 [Dummy-1:4136] [django.db.backends:91] [utils:execute] [DEBUG]- (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2018-04-21 21:48:29,682 [Dummy-1:4136] [django.db.backends:91] [utils:execute] [DEBUG]- (0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2018-04-21 21:49:38,375 [Dummy-1:8600] [django.db.backends:91] [utils:execute] [DEBUG]- (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2018-04-21 21:49:38,380 [Dummy-1:8600] [django.db.backends:91] [utils:execute] [DEBUG]- (0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2018-04-21 21:50:23,607 [Dummy-1:8876] [django.db.backends:91] [utils:execute] [DEBUG]- (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2018-04-21 21:50:23,618 [Dummy-1:8876] [django.db.backends:91] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2018-04-21 21:50:39,810 [Dummy-1:6840] [django.db.backends:91] [utils:execute] [DEBUG]- (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2018-04-21 21:50:39,815 [Dummy-1:6840] [django.db.backends:91] [utils:execute] [DEBUG]- (0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2018-04-21 21:59:55,308 [Dummy-1:8016] [django.db.backends:91] [utils:execute] [DEBUG]- (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2018-04-21 21:59:55,314 [Dummy-1:8016] [django.db.backends:91] [utils:execute] [DEBUG]- (0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2018-04-21 21:59:59,909 [Thread-2:9120] [blog.views:25] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2018-04-21 22:00:00,005 [Thread-2:9120] [django.server:124] [basehttp:log_message] [ERROR]- "GET / HTTP/1.1" 500 96234
+2018-04-21 22:03:33,004 [Dummy-1:2924] [django.db.backends:91] [utils:execute] [DEBUG]- (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2018-04-21 22:03:33,009 [Dummy-1:2924] [django.db.backends:91] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2018-04-21 22:03:33,165 [Thread-2:4540] [blog.views:25] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2018-04-21 22:03:33,180 [Thread-2:4540] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 14933
+2018-04-21 22:03:33,207 [Thread-3:2360] [django.template:925] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 172, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\urls\resolvers.py", line 392, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>], [<RegexURLPattern index ^$>]], 'path': 'images/a1.jpg'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 882, in _resolve_lookup
+    current = current[bit]
+TypeError: 'RegexURLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 890, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'RegexURLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 896, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in '<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+2018-04-21 22:03:33,227 [Thread-5:9188] [django.template:925] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 172, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\urls\resolvers.py", line 392, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>], [<RegexURLPattern index ^$>]], 'path': 'images/a3.jpg'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 882, in _resolve_lookup
+    current = current[bit]
+TypeError: 'RegexURLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 890, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'RegexURLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 896, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in '<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+2018-04-21 22:03:33,233 [Thread-6:8732] [django.template:925] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 172, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\urls\resolvers.py", line 392, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>], [<RegexURLPattern index ^$>]], 'path': 'images/a4.jpg'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 882, in _resolve_lookup
+    current = current[bit]
+TypeError: 'RegexURLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 890, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'RegexURLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 896, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in '<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+2018-04-21 22:03:33,234 [Thread-4:9784] [django.template:925] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 172, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\urls\resolvers.py", line 392, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>], [<RegexURLPattern index ^$>]], 'path': 'images/a2.jpg'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 882, in _resolve_lookup
+    current = current[bit]
+TypeError: 'RegexURLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 890, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'RegexURLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 896, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in '<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+2018-04-21 22:03:33,241 [Thread-3:2360] [django.server:124] [basehttp:log_message] [WARNING]- "GET /images/a1.jpg HTTP/1.1" 404 2090
+2018-04-21 22:03:33,243 [Thread-5:9188] [django.server:124] [basehttp:log_message] [WARNING]- "GET /images/a3.jpg HTTP/1.1" 404 2090
+2018-04-21 22:03:33,247 [Thread-6:8732] [django.server:124] [basehttp:log_message] [WARNING]- "GET /images/a4.jpg HTTP/1.1" 404 2090
+2018-04-21 22:03:33,257 [Thread-4:9784] [django.server:124] [basehttp:log_message] [WARNING]- "GET /images/a2.jpg HTTP/1.1" 404 2090
+2018-04-21 22:03:41,607 [Thread-7:8576] [django.server:124] [basehttp:log_message] [INFO]- "GET /static/images/ico_06.png HTTP/1.1" 200 2333
+2018-04-21 22:03:41,644 [Thread-8:5232] [django.server:124] [basehttp:log_message] [INFO]- "GET /static/images/ico_04.png HTTP/1.1" 200 2177
+2018-04-21 22:03:50,522 [Thread-9:6492] [django.server:124] [basehttp:log_message] [INFO]- "GET /static/images/ico_07.png HTTP/1.1" 200 2692
+2018-04-21 22:03:59,384 [Thread-10:7668] [django.template:925] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 172, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\urls\resolvers.py", line 392, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>], [<RegexURLPattern index ^$>]], 'path': 'index.html'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 882, in _resolve_lookup
+    current = current[bit]
+TypeError: 'RegexURLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 890, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'RegexURLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 896, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in '<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+2018-04-21 22:03:59,391 [Thread-10:7668] [django.server:124] [basehttp:log_message] [WARNING]- "GET /index.html HTTP/1.1" 404 2081
+2018-04-21 22:04:04,429 [Thread-11:10108] [django.template:925] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 172, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\urls\resolvers.py", line 392, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>], [<RegexURLPattern index ^$>]], 'path': 'news.html'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 882, in _resolve_lookup
+    current = current[bit]
+TypeError: 'RegexURLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 890, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'RegexURLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 896, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in '<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+2018-04-21 22:04:04,435 [Thread-11:10108] [django.server:124] [basehttp:log_message] [WARNING]- "GET /news.html HTTP/1.1" 404 2078
+2018-04-22 07:26:54,394 [Dummy-1:7340] [django.db.backends:91] [utils:execute] [DEBUG]- (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2018-04-22 07:26:54,400 [Dummy-1:7340] [django.db.backends:91] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2018-04-22 07:26:58,665 [Thread-2:8600] [blog.views:25] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2018-04-22 07:27:00,155 [Thread-2:8600] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 14933
+2018-04-22 07:27:00,174 [Thread-3:10532] [django.template:925] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 172, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\urls\resolvers.py", line 392, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>], [<RegexURLPattern index ^$>]], 'path': 'images/a1.jpg'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 882, in _resolve_lookup
+    current = current[bit]
+TypeError: 'RegexURLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 890, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'RegexURLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 896, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in '<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+2018-04-22 07:27:00,183 [Thread-3:10532] [django.server:124] [basehttp:log_message] [WARNING]- "GET /images/a1.jpg HTTP/1.1" 404 2090
+2018-04-22 07:27:00,192 [Thread-4:9820] [django.template:925] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 172, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\urls\resolvers.py", line 392, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>], [<RegexURLPattern index ^$>]], 'path': 'images/a2.jpg'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 882, in _resolve_lookup
+    current = current[bit]
+TypeError: 'RegexURLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 890, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'RegexURLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 896, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in '<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+2018-04-22 07:27:00,200 [Thread-4:9820] [django.server:124] [basehttp:log_message] [WARNING]- "GET /images/a2.jpg HTTP/1.1" 404 2090
+2018-04-22 07:27:00,207 [Thread-5:8676] [django.template:925] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 172, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\urls\resolvers.py", line 392, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>], [<RegexURLPattern index ^$>]], 'path': 'images/a3.jpg'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 882, in _resolve_lookup
+    current = current[bit]
+TypeError: 'RegexURLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 890, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'RegexURLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 896, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in '<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+2018-04-22 07:27:00,216 [Thread-5:8676] [django.server:124] [basehttp:log_message] [WARNING]- "GET /images/a3.jpg HTTP/1.1" 404 2090
+2018-04-22 07:27:00,224 [Thread-6:1372] [django.template:925] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 172, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\urls\resolvers.py", line 392, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>], [<RegexURLPattern index ^$>]], 'path': 'images/a4.jpg'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 882, in _resolve_lookup
+    current = current[bit]
+TypeError: 'RegexURLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 890, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'RegexURLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 896, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in '<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+2018-04-22 07:27:00,234 [Thread-6:1372] [django.server:124] [basehttp:log_message] [WARNING]- "GET /images/a4.jpg HTTP/1.1" 404 2090
+2018-04-22 07:27:32,285 [Thread-8:9584] [django.server:124] [basehttp:log_message] [INFO]- "GET /static/images/ico_05.png HTTP/1.1" 200 2404
+2018-04-22 07:27:45,255 [Thread-9:10436] [blog.views:25] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2018-04-22 07:27:45,259 [Thread-9:10436] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 14933
+2018-04-22 07:27:45,283 [Thread-10:10880] [django.template:925] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 172, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\urls\resolvers.py", line 392, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>], [<RegexURLPattern index ^$>]], 'path': 'images/a1.jpg'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 882, in _resolve_lookup
+    current = current[bit]
+TypeError: 'RegexURLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 890, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'RegexURLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 896, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in '<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+2018-04-22 07:27:45,291 [Thread-10:10880] [django.server:124] [basehttp:log_message] [WARNING]- "GET /images/a1.jpg HTTP/1.1" 404 2090
+2018-04-22 07:27:45,300 [Thread-11:10852] [django.template:925] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 172, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\urls\resolvers.py", line 392, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>], [<RegexURLPattern index ^$>]], 'path': 'images/a2.jpg'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 882, in _resolve_lookup
+    current = current[bit]
+TypeError: 'RegexURLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 890, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'RegexURLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 896, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in '<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+2018-04-22 07:27:45,306 [Thread-11:10852] [django.server:124] [basehttp:log_message] [WARNING]- "GET /images/a2.jpg HTTP/1.1" 404 2090
+2018-04-22 07:27:45,316 [Thread-12:10864] [django.template:925] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 172, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\urls\resolvers.py", line 392, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>], [<RegexURLPattern index ^$>]], 'path': 'images/a3.jpg'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 882, in _resolve_lookup
+    current = current[bit]
+TypeError: 'RegexURLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 890, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'RegexURLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 896, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in '<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+2018-04-22 07:27:45,322 [Thread-12:10864] [django.server:124] [basehttp:log_message] [WARNING]- "GET /images/a3.jpg HTTP/1.1" 404 2090
+2018-04-22 07:27:45,331 [Thread-13:8912] [django.template:925] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 172, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\urls\resolvers.py", line 392, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>], [<RegexURLPattern index ^$>]], 'path': 'images/a4.jpg'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 882, in _resolve_lookup
+    current = current[bit]
+TypeError: 'RegexURLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 890, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'RegexURLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 896, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in '<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+2018-04-22 07:27:45,336 [Thread-13:8912] [django.server:124] [basehttp:log_message] [WARNING]- "GET /images/a4.jpg HTTP/1.1" 404 2090
+2018-04-22 08:19:46,822 [MainThread:10764] [django.db.backends:91] [utils:execute] [DEBUG]- (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+2018-04-22 08:19:46,823 [MainThread:10764] [django.db.backends:91] [utils:execute] [DEBUG]- (0.001) SELECT VERSION(); args=None
+2018-04-22 08:20:38,255 [MainThread:9360] [django.db.backends:91] [utils:execute] [DEBUG]- (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+2018-04-22 08:20:38,256 [MainThread:9360] [django.db.backends:91] [utils:execute] [DEBUG]- (0.001) SELECT VERSION(); args=None
+2018-04-22 09:04:32,361 [MainThread:1768] [django.db.backends:91] [utils:execute] [DEBUG]- (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+2018-04-22 09:04:32,362 [MainThread:1768] [django.db.backends:91] [utils:execute] [DEBUG]- (0.001) SELECT VERSION(); args=None
+2018-04-22 09:10:57,007 [MainThread:2656] [django.db.backends:91] [utils:execute] [DEBUG]- (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+2018-04-22 09:10:57,008 [MainThread:2656] [django.db.backends:91] [utils:execute] [DEBUG]- (0.001) SELECT VERSION(); args=None
+2018-04-22 09:17:53,522 [MainThread:4540] [django.db.backends:91] [utils:execute] [DEBUG]- (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+2018-04-22 09:17:53,523 [MainThread:4540] [django.db.backends:91] [utils:execute] [DEBUG]- (0.000) SELECT VERSION(); args=None
+2018-04-22 09:17:53,583 [MainThread:4540] [django.db.backends:91] [utils:execute] [DEBUG]- (0.002) SHOW FULL TABLES; args=None
+2018-04-22 09:17:53,584 [MainThread:4540] [django.db.backends.schema:111] [schema:execute] [DEBUG]- CREATE TABLE `django_migrations` (`id` integer AUTO_INCREMENT NOT NULL PRIMARY KEY, `app` varchar(255) NOT NULL, `name` varchar(255) NOT NULL, `applied` datetime(6) NOT NULL); (params None)
+2018-04-22 09:17:53,628 [MainThread:4540] [django.db.backends:91] [utils:execute] [DEBUG]- (0.044) CREATE TABLE `django_migrations` (`id` integer AUTO_INCREMENT NOT NULL PRIMARY KEY, `app` varchar(255) NOT NULL, `name` varchar(255) NOT NULL, `applied` datetime(6) NOT NULL); args=None
+2018-04-22 09:17:53,632 [MainThread:4540] [django.db.backends:91] [utils:execute] [DEBUG]- (0.004) SELECT engine FROM information_schema.tables WHERE table_name = 'django_migrations'; args=['django_migrations']
+2018-04-22 09:17:53,635 [MainThread:4540] [django.db.backends:91] [utils:execute] [DEBUG]- (0.002) SELECT engine FROM information_schema.tables WHERE table_name = 'django_migrations'; args=['django_migrations']
+2018-04-22 09:17:53,637 [MainThread:4540] [django.db.backends:91] [utils:execute] [DEBUG]- (0.002) SELECT engine FROM information_schema.tables WHERE table_name = 'django_migrations'; args=['django_migrations']
+2018-04-22 09:17:53,639 [MainThread:4540] [django.db.backends:91] [utils:execute] [DEBUG]- (0.002) SELECT engine FROM information_schema.tables WHERE table_name = 'django_migrations'; args=['django_migrations']
+2018-04-22 09:17:53,648 [MainThread:4540] [django.db.backends:91] [utils:execute] [DEBUG]- (0.005) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+2018-04-22 09:20:35,351 [MainThread:11076] [django.db.backends:91] [utils:execute] [DEBUG]- (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+2018-04-22 09:20:35,353 [MainThread:11076] [django.db.backends:91] [utils:execute] [DEBUG]- (0.001) SELECT VERSION(); args=None
+2018-04-22 09:20:35,424 [MainThread:11076] [django.db.backends:91] [utils:execute] [DEBUG]- (0.005) SHOW FULL TABLES; args=None
+2018-04-22 09:20:35,434 [MainThread:11076] [django.db.backends:91] [utils:execute] [DEBUG]- (0.006) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+2018-04-22 09:20:59,681 [MainThread:9628] [django.db.backends:91] [utils:execute] [DEBUG]- (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+2018-04-22 09:20:59,682 [MainThread:9628] [django.db.backends:91] [utils:execute] [DEBUG]- (0.000) SELECT VERSION(); args=None
+2018-04-22 09:21:39,161 [MainThread:10976] [django.db.backends:91] [utils:execute] [DEBUG]- (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+2018-04-22 09:21:39,162 [MainThread:10976] [django.db.backends:91] [utils:execute] [DEBUG]- (0.000) SELECT VERSION(); args=None
+2018-04-22 09:21:50,710 [MainThread:9572] [django.db.backends:91] [utils:execute] [DEBUG]- (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+2018-04-22 09:21:50,711 [MainThread:9572] [django.db.backends:91] [utils:execute] [DEBUG]- (0.000) SELECT @@sql_mode; args=None
+2018-04-22 09:21:50,713 [MainThread:9572] [django.db.backends:91] [utils:execute] [DEBUG]- (0.001) SELECT VERSION(); args=None
+2018-04-22 01:59:23,614 [MainThread:2956] [django.db.backends:91] [utils:execute] [DEBUG]- (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+2018-04-22 01:59:23,614 [MainThread:2956] [django.db.backends:91] [utils:execute] [DEBUG]- (0.000) SELECT VERSION(); args=None
+2018-04-22 02:41:33,891 [MainThread:4880] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+2018-04-22 02:41:33,892 [MainThread:4880] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT VERSION(); args=None
+2018-04-22 02:42:03,911 [MainThread:2424] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+2018-04-22 02:42:03,914 [MainThread:2424] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) SELECT VERSION(); args=None
+2018-04-22 02:42:04,013 [MainThread:2424] [django.db.backends:90] [utils:execute] [DEBUG]- (0.004) SHOW FULL TABLES; args=None
+2018-04-22 02:42:04,032 [MainThread:2424] [django.db.backends:90] [utils:execute] [DEBUG]- (0.015) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+2018-04-22 02:42:41,441 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+2018-04-22 02:42:41,443 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT @@sql_mode; args=None
+2018-04-22 02:42:41,444 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT VERSION(); args=None
+2018-04-22 02:42:41,526 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SHOW FULL TABLES; args=None
+2018-04-22 02:42:41,533 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.004) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+2018-04-22 02:42:41,536 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SHOW FULL TABLES; args=None
+2018-04-22 02:42:41,538 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+2018-04-22 02:42:41,546 [MainThread:3188] [django.db.backends.schema:111] [schema:execute] [DEBUG]- CREATE TABLE `django_content_type` (`id` integer AUTO_INCREMENT NOT NULL PRIMARY KEY, `name` varchar(100) NOT NULL, `app_label` varchar(100) NOT NULL, `model` varchar(100) NOT NULL); (params None)
+2018-04-22 02:42:41,588 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.041) CREATE TABLE `django_content_type` (`id` integer AUTO_INCREMENT NOT NULL PRIMARY KEY, `name` varchar(100) NOT NULL, `app_label` varchar(100) NOT NULL, `model` varchar(100) NOT NULL); args=None
+2018-04-22 02:42:41,591 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.003) SELECT engine FROM information_schema.tables WHERE table_name = 'django_content_type'; args=[u'django_content_type']
+2018-04-22 02:42:41,592 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT engine FROM information_schema.tables WHERE table_name = 'django_content_type'; args=[u'django_content_type']
+2018-04-22 02:42:41,595 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) SELECT engine FROM information_schema.tables WHERE table_name = 'django_content_type'; args=[u'django_content_type']
+2018-04-22 02:42:41,598 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT engine FROM information_schema.tables WHERE table_name = 'django_content_type'; args=[u'django_content_type']
+2018-04-22 02:42:41,602 [MainThread:3188] [django.db.backends.schema:111] [schema:execute] [DEBUG]- ALTER TABLE `django_content_type` ADD CONSTRAINT `django_content_type_app_label_model_76bd3d3b_uniq` UNIQUE (`app_label`, `model`); (params ())
+2018-04-22 02:42:41,632 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.029) ALTER TABLE `django_content_type` ADD CONSTRAINT `django_content_type_app_label_model_76bd3d3b_uniq` UNIQUE (`app_label`, `model`); args=()
+2018-04-22 02:42:41,634 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SHOW FULL TABLES; args=None
+2018-04-22 02:42:41,638 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) INSERT INTO `django_migrations` (`app`, `name`, `applied`) VALUES ('contenttypes', '0001_initial', '2018-04-21 18:42:41.636000'); args=['contenttypes', u'0001_initial', u'2018-04-21 18:42:41.636000']
+2018-04-22 02:42:41,647 [MainThread:3188] [django.db.backends.schema:111] [schema:execute] [DEBUG]- ALTER TABLE `django_content_type` MODIFY `name` varchar(100) NULL; (params [])
+2018-04-22 02:42:41,700 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.052) ALTER TABLE `django_content_type` MODIFY `name` varchar(100) NULL; args=[]
+2018-04-22 02:42:41,704 [MainThread:3188] [django.db.backends.schema:111] [schema:execute] [DEBUG]- ALTER TABLE `django_content_type` DROP COLUMN `name`; (params ())
+2018-04-22 02:42:41,753 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.048) ALTER TABLE `django_content_type` DROP COLUMN `name`; args=()
+2018-04-22 02:42:41,756 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SHOW FULL TABLES; args=None
+2018-04-22 02:42:41,759 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) INSERT INTO `django_migrations` (`app`, `name`, `applied`) VALUES ('contenttypes', '0002_remove_content_type_name', '2018-04-21 18:42:41.757000'); args=['contenttypes', u'0002_remove_content_type_name', u'2018-04-21 18:42:41.757000']
+2018-04-22 02:42:41,769 [MainThread:3188] [django.db.backends.schema:111] [schema:execute] [DEBUG]- CREATE TABLE `auth_permission` (`id` integer AUTO_INCREMENT NOT NULL PRIMARY KEY, `name` varchar(50) NOT NULL, `content_type_id` integer NOT NULL, `codename` varchar(100) NOT NULL); (params None)
+2018-04-22 02:42:41,805 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.035) CREATE TABLE `auth_permission` (`id` integer AUTO_INCREMENT NOT NULL PRIMARY KEY, `name` varchar(50) NOT NULL, `content_type_id` integer NOT NULL, `codename` varchar(100) NOT NULL); args=None
+2018-04-22 02:42:41,806 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT engine FROM information_schema.tables WHERE table_name = 'auth_permission'; args=[u'auth_permission']
+2018-04-22 02:42:41,809 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) SELECT engine FROM information_schema.tables WHERE table_name = 'auth_permission'; args=[u'auth_permission']
+2018-04-22 02:42:41,815 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) SELECT engine FROM information_schema.tables WHERE table_name = 'auth_permission'; args=[u'auth_permission']
+2018-04-22 02:42:41,816 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT engine FROM information_schema.tables WHERE table_name = 'auth_permission'; args=[u'auth_permission']
+2018-04-22 02:42:41,822 [MainThread:3188] [django.db.backends.schema:111] [schema:execute] [DEBUG]- CREATE TABLE `auth_group` (`id` integer AUTO_INCREMENT NOT NULL PRIMARY KEY, `name` varchar(80) NOT NULL UNIQUE); (params None)
+2018-04-22 02:42:41,864 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.041) CREATE TABLE `auth_group` (`id` integer AUTO_INCREMENT NOT NULL PRIMARY KEY, `name` varchar(80) NOT NULL UNIQUE); args=None
+2018-04-22 02:42:41,865 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT engine FROM information_schema.tables WHERE table_name = 'auth_group'; args=[u'auth_group']
+2018-04-22 02:42:41,868 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT engine FROM information_schema.tables WHERE table_name = 'auth_group'; args=[u'auth_group']
+2018-04-22 02:42:41,869 [MainThread:3188] [django.db.backends.schema:111] [schema:execute] [DEBUG]- CREATE TABLE `auth_group_permissions` (`id` integer AUTO_INCREMENT NOT NULL PRIMARY KEY, `group_id` integer NOT NULL, `permission_id` integer NOT NULL); (params None)
+2018-04-22 02:42:41,901 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.031) CREATE TABLE `auth_group_permissions` (`id` integer AUTO_INCREMENT NOT NULL PRIMARY KEY, `group_id` integer NOT NULL, `permission_id` integer NOT NULL); args=None
+2018-04-22 02:42:41,904 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT engine FROM information_schema.tables WHERE table_name = 'auth_group_permissions'; args=[u'auth_group_permissions']
+2018-04-22 02:42:41,907 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) SELECT engine FROM information_schema.tables WHERE table_name = 'auth_group_permissions'; args=[u'auth_group_permissions']
+2018-04-22 02:42:41,910 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT engine FROM information_schema.tables WHERE table_name = 'auth_group_permissions'; args=[u'auth_group_permissions']
+2018-04-22 02:42:41,917 [MainThread:3188] [django.db.backends.schema:111] [schema:execute] [DEBUG]- ALTER TABLE `auth_permission` ADD CONSTRAINT `auth_permission_content_type_id_2f476e4b_fk_django_co` FOREIGN KEY (`content_type_id`) REFERENCES `django_content_type` (`id`); (params ())
+2018-04-22 02:42:41,986 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.067) ALTER TABLE `auth_permission` ADD CONSTRAINT `auth_permission_content_type_id_2f476e4b_fk_django_co` FOREIGN KEY (`content_type_id`) REFERENCES `django_content_type` (`id`); args=()
+2018-04-22 02:42:41,986 [MainThread:3188] [django.db.backends.schema:111] [schema:execute] [DEBUG]- ALTER TABLE `auth_permission` ADD CONSTRAINT `auth_permission_content_type_id_codename_01ab375a_uniq` UNIQUE (`content_type_id`, `codename`); (params ())
+2018-04-22 02:42:42,019 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.033) ALTER TABLE `auth_permission` ADD CONSTRAINT `auth_permission_content_type_id_codename_01ab375a_uniq` UNIQUE (`content_type_id`, `codename`); args=()
+2018-04-22 02:42:42,019 [MainThread:3188] [django.db.backends.schema:111] [schema:execute] [DEBUG]- ALTER TABLE `auth_group_permissions` ADD CONSTRAINT `auth_group_permissions_group_id_b120cbf9_fk_auth_group_id` FOREIGN KEY (`group_id`) REFERENCES `auth_group` (`id`); (params ())
+2018-04-22 02:42:42,107 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.086) ALTER TABLE `auth_group_permissions` ADD CONSTRAINT `auth_group_permissions_group_id_b120cbf9_fk_auth_group_id` FOREIGN KEY (`group_id`) REFERENCES `auth_group` (`id`); args=()
+2018-04-22 02:42:42,107 [MainThread:3188] [django.db.backends.schema:111] [schema:execute] [DEBUG]- ALTER TABLE `auth_group_permissions` ADD CONSTRAINT `auth_group_permissio_permission_id_84c5c92e_fk_auth_perm` FOREIGN KEY (`permission_id`) REFERENCES `auth_permission` (`id`); (params ())
+2018-04-22 02:42:42,190 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.082) ALTER TABLE `auth_group_permissions` ADD CONSTRAINT `auth_group_permissio_permission_id_84c5c92e_fk_auth_perm` FOREIGN KEY (`permission_id`) REFERENCES `auth_permission` (`id`); args=()
+2018-04-22 02:42:42,190 [MainThread:3188] [django.db.backends.schema:111] [schema:execute] [DEBUG]- ALTER TABLE `auth_group_permissions` ADD CONSTRAINT `auth_group_permissions_group_id_permission_id_0cd325b0_uniq` UNIQUE (`group_id`, `permission_id`); (params ())
+2018-04-22 02:42:42,226 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.034) ALTER TABLE `auth_group_permissions` ADD CONSTRAINT `auth_group_permissions_group_id_permission_id_0cd325b0_uniq` UNIQUE (`group_id`, `permission_id`); args=()
+2018-04-22 02:42:42,229 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.003) SHOW FULL TABLES; args=None
+2018-04-22 02:42:42,230 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) INSERT INTO `django_migrations` (`app`, `name`, `applied`) VALUES ('auth', '0001_initial', '2018-04-21 18:42:42.230000'); args=['auth', u'0001_initial', u'2018-04-21 18:42:42.230000']
+2018-04-22 02:42:42,239 [MainThread:3188] [django.db.backends.schema:111] [schema:execute] [DEBUG]- ALTER TABLE `auth_permission` MODIFY `name` varchar(255) NOT NULL; (params [])
+2018-04-22 02:42:42,292 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.052) ALTER TABLE `auth_permission` MODIFY `name` varchar(255) NOT NULL; args=[]
+2018-04-22 02:42:42,295 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) SHOW FULL TABLES; args=None
+2018-04-22 02:42:42,296 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) INSERT INTO `django_migrations` (`app`, `name`, `applied`) VALUES ('auth', '0002_alter_permission_name_max_length', '2018-04-21 18:42:42.296000'); args=['auth', u'0002_alter_permission_name_max_length', u'2018-04-21 18:42:42.296000']
+2018-04-22 02:42:42,311 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.003) SHOW FULL TABLES; args=None
+2018-04-22 02:42:42,312 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) INSERT INTO `django_migrations` (`app`, `name`, `applied`) VALUES ('auth', '0003_alter_user_email_max_length', '2018-04-21 18:42:42.312000'); args=['auth', u'0003_alter_user_email_max_length', u'2018-04-21 18:42:42.312000']
+2018-04-22 02:42:42,328 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) SHOW FULL TABLES; args=None
+2018-04-22 02:42:42,331 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) INSERT INTO `django_migrations` (`app`, `name`, `applied`) VALUES ('auth', '0004_alter_user_username_opts', '2018-04-21 18:42:42.329000'); args=['auth', u'0004_alter_user_username_opts', u'2018-04-21 18:42:42.329000']
+2018-04-22 02:42:42,346 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SHOW FULL TABLES; args=None
+2018-04-22 02:42:42,348 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) INSERT INTO `django_migrations` (`app`, `name`, `applied`) VALUES ('auth', '0005_alter_user_last_login_null', '2018-04-21 18:42:42.348000'); args=['auth', u'0005_alter_user_last_login_null', u'2018-04-21 18:42:42.348000']
+2018-04-22 02:42:42,354 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SHOW FULL TABLES; args=None
+2018-04-22 02:42:42,357 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) INSERT INTO `django_migrations` (`app`, `name`, `applied`) VALUES ('auth', '0006_require_contenttypes_0002', '2018-04-21 18:42:42.356000'); args=['auth', u'0006_require_contenttypes_0002', u'2018-04-21 18:42:42.356000']
+2018-04-22 02:42:42,371 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) SHOW FULL TABLES; args=None
+2018-04-22 02:42:42,372 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) INSERT INTO `django_migrations` (`app`, `name`, `applied`) VALUES ('auth', '0007_alter_validators_add_error_messages', '2018-04-21 18:42:42.372000'); args=['auth', u'0007_alter_validators_add_error_messages', u'2018-04-21 18:42:42.372000']
+2018-04-22 02:42:42,385 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SHOW FULL TABLES; args=None
+2018-04-22 02:42:42,388 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) INSERT INTO `django_migrations` (`app`, `name`, `applied`) VALUES ('auth', '0008_alter_user_username_max_length', '2018-04-21 18:42:42.387000'); args=['auth', u'0008_alter_user_username_max_length', u'2018-04-21 18:42:42.387000']
+2018-04-22 02:42:42,404 [MainThread:3188] [django.db.backends.schema:111] [schema:execute] [DEBUG]- CREATE TABLE `blog_user` (`id` integer AUTO_INCREMENT NOT NULL PRIMARY KEY, `password` varchar(128) NOT NULL, `last_login` datetime(6) NULL, `is_superuser` bool NOT NULL, `username` varchar(150) NOT NULL UNIQUE, `first_name` varchar(30) NOT NULL, `last_name` varchar(30) NOT NULL, `email` varchar(254) NOT NULL, `is_staff` bool NOT NULL, `is_active` bool NOT NULL, `date_joined` datetime(6) NOT NULL, `avatar` varchar(200) NULL, `qq` varchar(20) NULL, `mobile` varchar(11) NULL UNIQUE); (params None)
+2018-04-22 02:42:42,441 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.037) CREATE TABLE `blog_user` (`id` integer AUTO_INCREMENT NOT NULL PRIMARY KEY, `password` varchar(128) NOT NULL, `last_login` datetime(6) NULL, `is_superuser` bool NOT NULL, `username` varchar(150) NOT NULL UNIQUE, `first_name` varchar(30) NOT NULL, `last_name` varchar(30) NOT NULL, `email` varchar(254) NOT NULL, `is_staff` bool NOT NULL, `is_active` bool NOT NULL, `date_joined` datetime(6) NOT NULL, `avatar` varchar(200) NULL, `qq` varchar(20) NULL, `mobile` varchar(11) NULL UNIQUE); args=None
+2018-04-22 02:42:42,444 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.003) SELECT engine FROM information_schema.tables WHERE table_name = 'blog_user'; args=[u'blog_user']
+2018-04-22 02:42:42,447 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT engine FROM information_schema.tables WHERE table_name = 'blog_user'; args=[u'blog_user']
+2018-04-22 02:42:42,450 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT engine FROM information_schema.tables WHERE table_name = 'blog_user'; args=[u'blog_user']
+2018-04-22 02:42:42,451 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT engine FROM information_schema.tables WHERE table_name = 'blog_user'; args=[u'blog_user']
+2018-04-22 02:42:42,454 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT engine FROM information_schema.tables WHERE table_name = 'blog_user'; args=[u'blog_user']
+2018-04-22 02:42:42,457 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT engine FROM information_schema.tables WHERE table_name = 'blog_user'; args=[u'blog_user']
+2018-04-22 02:42:42,459 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT engine FROM information_schema.tables WHERE table_name = 'blog_user'; args=[u'blog_user']
+2018-04-22 02:42:42,463 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.003) SELECT engine FROM information_schema.tables WHERE table_name = 'blog_user'; args=[u'blog_user']
+2018-04-22 02:42:42,466 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) SELECT engine FROM information_schema.tables WHERE table_name = 'blog_user'; args=[u'blog_user']
+2018-04-22 02:42:42,469 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) SELECT engine FROM information_schema.tables WHERE table_name = 'blog_user'; args=[u'blog_user']
+2018-04-22 02:42:42,470 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) SELECT engine FROM information_schema.tables WHERE table_name = 'blog_user'; args=[u'blog_user']
+2018-04-22 02:42:42,473 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT engine FROM information_schema.tables WHERE table_name = 'blog_user'; args=[u'blog_user']
+2018-04-22 02:42:42,476 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) SELECT engine FROM information_schema.tables WHERE table_name = 'blog_user'; args=[u'blog_user']
+2018-04-22 02:42:42,477 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT engine FROM information_schema.tables WHERE table_name = 'blog_user'; args=[u'blog_user']
+2018-04-22 02:42:42,480 [MainThread:3188] [django.db.backends.schema:111] [schema:execute] [DEBUG]- CREATE TABLE `blog_user_groups` (`id` integer AUTO_INCREMENT NOT NULL PRIMARY KEY, `user_id` integer NOT NULL, `group_id` integer NOT NULL); (params None)
+2018-04-22 02:42:42,519 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.039) CREATE TABLE `blog_user_groups` (`id` integer AUTO_INCREMENT NOT NULL PRIMARY KEY, `user_id` integer NOT NULL, `group_id` integer NOT NULL); args=None
+2018-04-22 02:42:42,523 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) SELECT engine FROM information_schema.tables WHERE table_name = 'blog_user_groups'; args=[u'blog_user_groups']
+2018-04-22 02:42:42,523 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT engine FROM information_schema.tables WHERE table_name = 'blog_user_groups'; args=[u'blog_user_groups']
+2018-04-22 02:42:42,523 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT engine FROM information_schema.tables WHERE table_name = 'blog_user_groups'; args=[u'blog_user_groups']
+2018-04-22 02:42:42,523 [MainThread:3188] [django.db.backends.schema:111] [schema:execute] [DEBUG]- CREATE TABLE `blog_user_user_permissions` (`id` integer AUTO_INCREMENT NOT NULL PRIMARY KEY, `user_id` integer NOT NULL, `permission_id` integer NOT NULL); (params None)
+2018-04-22 02:42:42,566 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.044) CREATE TABLE `blog_user_user_permissions` (`id` integer AUTO_INCREMENT NOT NULL PRIMARY KEY, `user_id` integer NOT NULL, `permission_id` integer NOT NULL); args=None
+2018-04-22 02:42:42,569 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) SELECT engine FROM information_schema.tables WHERE table_name = 'blog_user_user_permissions'; args=[u'blog_user_user_permissions']
+2018-04-22 02:42:42,572 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) SELECT engine FROM information_schema.tables WHERE table_name = 'blog_user_user_permissions'; args=[u'blog_user_user_permissions']
+2018-04-22 02:42:42,575 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) SELECT engine FROM information_schema.tables WHERE table_name = 'blog_user_user_permissions'; args=[u'blog_user_user_permissions']
+2018-04-22 02:42:42,579 [MainThread:3188] [django.db.backends.schema:111] [schema:execute] [DEBUG]- CREATE TABLE `blog_ad` (`id` integer AUTO_INCREMENT NOT NULL PRIMARY KEY, `title` varchar(50) NOT NULL, `description` varchar(200) NOT NULL, `image_url` varchar(100) NOT NULL, `callback_url` varchar(200) NULL, `date_publish` datetime(6) NOT NULL, `index` integer NOT NULL); (params None)
+2018-04-22 02:42:42,612 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.033) CREATE TABLE `blog_ad` (`id` integer AUTO_INCREMENT NOT NULL PRIMARY KEY, `title` varchar(50) NOT NULL, `description` varchar(200) NOT NULL, `image_url` varchar(100) NOT NULL, `callback_url` varchar(200) NULL, `date_publish` datetime(6) NOT NULL, `index` integer NOT NULL); args=None
+2018-04-22 02:42:42,615 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT engine FROM information_schema.tables WHERE table_name = 'blog_ad'; args=[u'blog_ad']
+2018-04-22 02:42:42,618 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) SELECT engine FROM information_schema.tables WHERE table_name = 'blog_ad'; args=[u'blog_ad']
+2018-04-22 02:42:42,619 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) SELECT engine FROM information_schema.tables WHERE table_name = 'blog_ad'; args=[u'blog_ad']
+2018-04-22 02:42:42,621 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) SELECT engine FROM information_schema.tables WHERE table_name = 'blog_ad'; args=[u'blog_ad']
+2018-04-22 02:42:42,625 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT engine FROM information_schema.tables WHERE table_name = 'blog_ad'; args=[u'blog_ad']
+2018-04-22 02:42:42,628 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT engine FROM information_schema.tables WHERE table_name = 'blog_ad'; args=[u'blog_ad']
+2018-04-22 02:42:42,630 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) SELECT engine FROM information_schema.tables WHERE table_name = 'blog_ad'; args=[u'blog_ad']
+2018-04-22 02:42:42,634 [MainThread:3188] [django.db.backends.schema:111] [schema:execute] [DEBUG]- CREATE TABLE `blog_article` (`id` integer AUTO_INCREMENT NOT NULL PRIMARY KEY, `title` varchar(50) NOT NULL, `desc` varchar(50) NOT NULL, `content` longtext NOT NULL, `click_count` integer NOT NULL, `is_recommend` bool NOT NULL, `date_publish` datetime(6) NOT NULL); (params None)
+2018-04-22 02:42:42,668 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.033) CREATE TABLE `blog_article` (`id` integer AUTO_INCREMENT NOT NULL PRIMARY KEY, `title` varchar(50) NOT NULL, `desc` varchar(50) NOT NULL, `content` longtext NOT NULL, `click_count` integer NOT NULL, `is_recommend` bool NOT NULL, `date_publish` datetime(6) NOT NULL); args=None
+2018-04-22 02:42:42,671 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) SELECT engine FROM information_schema.tables WHERE table_name = 'blog_article'; args=[u'blog_article']
+2018-04-22 02:42:42,674 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.003) SELECT engine FROM information_schema.tables WHERE table_name = 'blog_article'; args=[u'blog_article']
+2018-04-22 02:42:42,677 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) SELECT engine FROM information_schema.tables WHERE table_name = 'blog_article'; args=[u'blog_article']
+2018-04-22 02:42:42,680 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.003) SELECT engine FROM information_schema.tables WHERE table_name = 'blog_article'; args=[u'blog_article']
+2018-04-22 02:42:42,681 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) SELECT engine FROM information_schema.tables WHERE table_name = 'blog_article'; args=[u'blog_article']
+2018-04-22 02:42:42,684 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT engine FROM information_schema.tables WHERE table_name = 'blog_article'; args=[u'blog_article']
+2018-04-22 02:42:42,686 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT engine FROM information_schema.tables WHERE table_name = 'blog_article'; args=[u'blog_article']
+2018-04-22 02:42:42,690 [MainThread:3188] [django.db.backends.schema:111] [schema:execute] [DEBUG]- CREATE TABLE `blog_category` (`id` integer AUTO_INCREMENT NOT NULL PRIMARY KEY, `name` varchar(30) NOT NULL, `index` integer NOT NULL); (params None)
+2018-04-22 02:42:42,723 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.032) CREATE TABLE `blog_category` (`id` integer AUTO_INCREMENT NOT NULL PRIMARY KEY, `name` varchar(30) NOT NULL, `index` integer NOT NULL); args=None
+2018-04-22 02:42:42,726 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) SELECT engine FROM information_schema.tables WHERE table_name = 'blog_category'; args=[u'blog_category']
+2018-04-22 02:42:42,730 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) SELECT engine FROM information_schema.tables WHERE table_name = 'blog_category'; args=[u'blog_category']
+2018-04-22 02:42:42,732 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) SELECT engine FROM information_schema.tables WHERE table_name = 'blog_category'; args=[u'blog_category']
+2018-04-22 02:42:42,759 [MainThread:3188] [django.db.backends.schema:111] [schema:execute] [DEBUG]- CREATE TABLE `blog_comment` (`id` integer AUTO_INCREMENT NOT NULL PRIMARY KEY, `content` longtext NOT NULL, `date_publish` datetime(6) NOT NULL, `article_id` integer NULL, `pid_id` integer NULL, `user_id` integer NULL); (params None)
+2018-04-22 02:42:42,798 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.039) CREATE TABLE `blog_comment` (`id` integer AUTO_INCREMENT NOT NULL PRIMARY KEY, `content` longtext NOT NULL, `date_publish` datetime(6) NOT NULL, `article_id` integer NULL, `pid_id` integer NULL, `user_id` integer NULL); args=None
+2018-04-22 02:42:42,801 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) SELECT engine FROM information_schema.tables WHERE table_name = 'blog_comment'; args=[u'blog_comment']
+2018-04-22 02:42:42,803 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) SELECT engine FROM information_schema.tables WHERE table_name = 'blog_comment'; args=[u'blog_comment']
+2018-04-22 02:42:42,806 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.003) SELECT engine FROM information_schema.tables WHERE table_name = 'blog_comment'; args=[u'blog_comment']
+2018-04-22 02:42:42,809 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT engine FROM information_schema.tables WHERE table_name = 'blog_comment'; args=[u'blog_comment']
+2018-04-22 02:42:42,812 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) SELECT engine FROM information_schema.tables WHERE table_name = 'blog_comment'; args=[u'blog_comment']
+2018-04-22 02:42:42,815 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT engine FROM information_schema.tables WHERE table_name = 'blog_comment'; args=[u'blog_comment']
+2018-04-22 02:42:42,819 [MainThread:3188] [django.db.backends.schema:111] [schema:execute] [DEBUG]- CREATE TABLE `blog_links` (`id` integer AUTO_INCREMENT NOT NULL PRIMARY KEY, `title` varchar(50) NOT NULL, `description` varchar(200) NOT NULL, `callback_url` varchar(200) NOT NULL, `date_publish` datetime(6) NOT NULL, `index` integer NOT NULL); (params None)
+2018-04-22 02:42:42,865 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.045) CREATE TABLE `blog_links` (`id` integer AUTO_INCREMENT NOT NULL PRIMARY KEY, `title` varchar(50) NOT NULL, `description` varchar(200) NOT NULL, `callback_url` varchar(200) NOT NULL, `date_publish` datetime(6) NOT NULL, `index` integer NOT NULL); args=None
+2018-04-22 02:42:42,868 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) SELECT engine FROM information_schema.tables WHERE table_name = 'blog_links'; args=[u'blog_links']
+2018-04-22 02:42:42,871 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) SELECT engine FROM information_schema.tables WHERE table_name = 'blog_links'; args=[u'blog_links']
+2018-04-22 02:42:42,872 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT engine FROM information_schema.tables WHERE table_name = 'blog_links'; args=[u'blog_links']
+2018-04-22 02:42:42,877 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) SELECT engine FROM information_schema.tables WHERE table_name = 'blog_links'; args=[u'blog_links']
+2018-04-22 02:42:42,880 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) SELECT engine FROM information_schema.tables WHERE table_name = 'blog_links'; args=[u'blog_links']
+2018-04-22 02:42:42,882 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) SELECT engine FROM information_schema.tables WHERE table_name = 'blog_links'; args=[u'blog_links']
+2018-04-22 02:42:42,888 [MainThread:3188] [django.db.backends.schema:111] [schema:execute] [DEBUG]- CREATE TABLE `blog_tag` (`id` integer AUTO_INCREMENT NOT NULL PRIMARY KEY, `name` varchar(30) NOT NULL); (params None)
+2018-04-22 02:42:42,915 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.027) CREATE TABLE `blog_tag` (`id` integer AUTO_INCREMENT NOT NULL PRIMARY KEY, `name` varchar(30) NOT NULL); args=None
+2018-04-22 02:42:42,918 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) SELECT engine FROM information_schema.tables WHERE table_name = 'blog_tag'; args=[u'blog_tag']
+2018-04-22 02:42:42,921 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT engine FROM information_schema.tables WHERE table_name = 'blog_tag'; args=[u'blog_tag']
+2018-04-22 02:42:42,940 [MainThread:3188] [django.db.backends.schema:111] [schema:execute] [DEBUG]- ALTER TABLE `blog_article` ADD COLUMN `category_id` integer NULL; (params [])
+2018-04-22 02:42:42,989 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.048) ALTER TABLE `blog_article` ADD COLUMN `category_id` integer NULL; args=[]
+2018-04-22 02:42:42,992 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) SELECT engine FROM information_schema.tables WHERE table_name = 'blog_article'; args=[u'blog_article']
+2018-04-22 02:42:43,028 [MainThread:3188] [django.db.backends.schema:111] [schema:execute] [DEBUG]- CREATE TABLE `blog_article_tag` (`id` integer AUTO_INCREMENT NOT NULL PRIMARY KEY, `article_id` integer NOT NULL, `tag_id` integer NOT NULL); (params None)
+2018-04-22 02:42:43,056 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.029) CREATE TABLE `blog_article_tag` (`id` integer AUTO_INCREMENT NOT NULL PRIMARY KEY, `article_id` integer NOT NULL, `tag_id` integer NOT NULL); args=None
+2018-04-22 02:42:43,059 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT engine FROM information_schema.tables WHERE table_name = 'blog_article_tag'; args=[u'blog_article_tag']
+2018-04-22 02:42:43,062 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.003) SELECT engine FROM information_schema.tables WHERE table_name = 'blog_article_tag'; args=[u'blog_article_tag']
+2018-04-22 02:42:43,065 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT engine FROM information_schema.tables WHERE table_name = 'blog_article_tag'; args=[u'blog_article_tag']
+2018-04-22 02:42:43,081 [MainThread:3188] [django.db.backends.schema:111] [schema:execute] [DEBUG]- ALTER TABLE `blog_article` ADD COLUMN `user_id` integer NOT NULL; (params [])
+2018-04-22 02:42:43,138 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.057) ALTER TABLE `blog_article` ADD COLUMN `user_id` integer NOT NULL; args=[]
+2018-04-22 02:42:43,141 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT engine FROM information_schema.tables WHERE table_name = 'blog_article'; args=[u'blog_article']
+2018-04-22 02:42:43,141 [MainThread:3188] [django.db.backends.schema:111] [schema:execute] [DEBUG]- ALTER TABLE `blog_user_groups` ADD CONSTRAINT `blog_user_groups_user_id_4e1acb48_fk_blog_user_id` FOREIGN KEY (`user_id`) REFERENCES `blog_user` (`id`); (params ())
+2018-04-22 02:42:43,216 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.073) ALTER TABLE `blog_user_groups` ADD CONSTRAINT `blog_user_groups_user_id_4e1acb48_fk_blog_user_id` FOREIGN KEY (`user_id`) REFERENCES `blog_user` (`id`); args=()
+2018-04-22 02:42:43,217 [MainThread:3188] [django.db.backends.schema:111] [schema:execute] [DEBUG]- ALTER TABLE `blog_user_groups` ADD CONSTRAINT `blog_user_groups_group_id_29990e74_fk_auth_group_id` FOREIGN KEY (`group_id`) REFERENCES `auth_group` (`id`); (params ())
+2018-04-22 02:42:43,278 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.061) ALTER TABLE `blog_user_groups` ADD CONSTRAINT `blog_user_groups_group_id_29990e74_fk_auth_group_id` FOREIGN KEY (`group_id`) REFERENCES `auth_group` (`id`); args=()
+2018-04-22 02:42:43,279 [MainThread:3188] [django.db.backends.schema:111] [schema:execute] [DEBUG]- ALTER TABLE `blog_user_groups` ADD CONSTRAINT `blog_user_groups_user_id_group_id_9046f296_uniq` UNIQUE (`user_id`, `group_id`); (params ())
+2018-04-22 02:42:43,312 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.033) ALTER TABLE `blog_user_groups` ADD CONSTRAINT `blog_user_groups_user_id_group_id_9046f296_uniq` UNIQUE (`user_id`, `group_id`); args=()
+2018-04-22 02:42:43,312 [MainThread:3188] [django.db.backends.schema:111] [schema:execute] [DEBUG]- ALTER TABLE `blog_user_user_permissions` ADD CONSTRAINT `blog_user_user_permissions_user_id_379a1502_fk_blog_user_id` FOREIGN KEY (`user_id`) REFERENCES `blog_user` (`id`); (params ())
+2018-04-22 02:42:43,395 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.083) ALTER TABLE `blog_user_user_permissions` ADD CONSTRAINT `blog_user_user_permissions_user_id_379a1502_fk_blog_user_id` FOREIGN KEY (`user_id`) REFERENCES `blog_user` (`id`); args=()
+2018-04-22 02:42:43,395 [MainThread:3188] [django.db.backends.schema:111] [schema:execute] [DEBUG]- ALTER TABLE `blog_user_user_permissions` ADD CONSTRAINT `blog_user_user_permi_permission_id_95ca6010_fk_auth_perm` FOREIGN KEY (`permission_id`) REFERENCES `auth_permission` (`id`); (params ())
+2018-04-22 02:42:43,466 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.069) ALTER TABLE `blog_user_user_permissions` ADD CONSTRAINT `blog_user_user_permi_permission_id_95ca6010_fk_auth_perm` FOREIGN KEY (`permission_id`) REFERENCES `auth_permission` (`id`); args=()
+2018-04-22 02:42:43,467 [MainThread:3188] [django.db.backends.schema:111] [schema:execute] [DEBUG]- ALTER TABLE `blog_user_user_permissions` ADD CONSTRAINT `blog_user_user_permissions_user_id_permission_id_1d3c1311_uniq` UNIQUE (`user_id`, `permission_id`); (params ())
+2018-04-22 02:42:43,493 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.026) ALTER TABLE `blog_user_user_permissions` ADD CONSTRAINT `blog_user_user_permissions_user_id_permission_id_1d3c1311_uniq` UNIQUE (`user_id`, `permission_id`); args=()
+2018-04-22 02:42:43,493 [MainThread:3188] [django.db.backends.schema:111] [schema:execute] [DEBUG]- ALTER TABLE `blog_comment` ADD CONSTRAINT `blog_comment_article_id_3d58bca6_fk_blog_article_id` FOREIGN KEY (`article_id`) REFERENCES `blog_article` (`id`); (params ())
+2018-04-22 02:42:43,578 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.085) ALTER TABLE `blog_comment` ADD CONSTRAINT `blog_comment_article_id_3d58bca6_fk_blog_article_id` FOREIGN KEY (`article_id`) REFERENCES `blog_article` (`id`); args=()
+2018-04-22 02:42:43,578 [MainThread:3188] [django.db.backends.schema:111] [schema:execute] [DEBUG]- ALTER TABLE `blog_comment` ADD CONSTRAINT `blog_comment_pid_id_2a2b4cc4_fk_blog_comment_id` FOREIGN KEY (`pid_id`) REFERENCES `blog_comment` (`id`); (params ())
+2018-04-22 02:42:43,663 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.083) ALTER TABLE `blog_comment` ADD CONSTRAINT `blog_comment_pid_id_2a2b4cc4_fk_blog_comment_id` FOREIGN KEY (`pid_id`) REFERENCES `blog_comment` (`id`); args=()
+2018-04-22 02:42:43,664 [MainThread:3188] [django.db.backends.schema:111] [schema:execute] [DEBUG]- ALTER TABLE `blog_comment` ADD CONSTRAINT `blog_comment_user_id_59a54155_fk_blog_user_id` FOREIGN KEY (`user_id`) REFERENCES `blog_user` (`id`); (params ())
+2018-04-22 02:42:43,776 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.111) ALTER TABLE `blog_comment` ADD CONSTRAINT `blog_comment_user_id_59a54155_fk_blog_user_id` FOREIGN KEY (`user_id`) REFERENCES `blog_user` (`id`); args=()
+2018-04-22 02:42:43,778 [MainThread:3188] [django.db.backends.schema:111] [schema:execute] [DEBUG]- ALTER TABLE `blog_article` ADD CONSTRAINT `blog_article_category_id_7e38f15e_fk_blog_category_id` FOREIGN KEY (`category_id`) REFERENCES `blog_category` (`id`); (params ())
+2018-04-22 02:42:43,861 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.083) ALTER TABLE `blog_article` ADD CONSTRAINT `blog_article_category_id_7e38f15e_fk_blog_category_id` FOREIGN KEY (`category_id`) REFERENCES `blog_category` (`id`); args=()
+2018-04-22 02:42:43,861 [MainThread:3188] [django.db.backends.schema:111] [schema:execute] [DEBUG]- ALTER TABLE `blog_article_tag` ADD CONSTRAINT `blog_article_tag_article_id_8db2395e_fk_blog_article_id` FOREIGN KEY (`article_id`) REFERENCES `blog_article` (`id`); (params ())
+2018-04-22 02:42:43,930 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.069) ALTER TABLE `blog_article_tag` ADD CONSTRAINT `blog_article_tag_article_id_8db2395e_fk_blog_article_id` FOREIGN KEY (`article_id`) REFERENCES `blog_article` (`id`); args=()
+2018-04-22 02:42:43,931 [MainThread:3188] [django.db.backends.schema:111] [schema:execute] [DEBUG]- ALTER TABLE `blog_article_tag` ADD CONSTRAINT `blog_article_tag_tag_id_f2afe66b_fk_blog_tag_id` FOREIGN KEY (`tag_id`) REFERENCES `blog_tag` (`id`); (params ())
+2018-04-22 02:42:44,006 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.075) ALTER TABLE `blog_article_tag` ADD CONSTRAINT `blog_article_tag_tag_id_f2afe66b_fk_blog_tag_id` FOREIGN KEY (`tag_id`) REFERENCES `blog_tag` (`id`); args=()
+2018-04-22 02:42:44,009 [MainThread:3188] [django.db.backends.schema:111] [schema:execute] [DEBUG]- ALTER TABLE `blog_article_tag` ADD CONSTRAINT `blog_article_tag_article_id_tag_id_818e752b_uniq` UNIQUE (`article_id`, `tag_id`); (params ())
+2018-04-22 02:42:44,049 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.039) ALTER TABLE `blog_article_tag` ADD CONSTRAINT `blog_article_tag_article_id_tag_id_818e752b_uniq` UNIQUE (`article_id`, `tag_id`); args=()
+2018-04-22 02:42:44,051 [MainThread:3188] [django.db.backends.schema:111] [schema:execute] [DEBUG]- ALTER TABLE `blog_article` ADD CONSTRAINT `blog_article_user_id_5beb0cc1_fk_blog_user_id` FOREIGN KEY (`user_id`) REFERENCES `blog_user` (`id`); (params ())
+2018-04-22 02:42:44,127 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.075) ALTER TABLE `blog_article` ADD CONSTRAINT `blog_article_user_id_5beb0cc1_fk_blog_user_id` FOREIGN KEY (`user_id`) REFERENCES `blog_user` (`id`); args=()
+2018-04-22 02:42:44,131 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.003) SHOW FULL TABLES; args=None
+2018-04-22 02:42:44,134 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) INSERT INTO `django_migrations` (`app`, `name`, `applied`) VALUES ('blog', '0001_initial', '2018-04-21 18:42:44.132000'); args=['blog', u'0001_initial', u'2018-04-21 18:42:44.132000']
+2018-04-22 02:42:44,154 [MainThread:3188] [django.db.backends.schema:111] [schema:execute] [DEBUG]- CREATE TABLE `django_admin_log` (`id` integer AUTO_INCREMENT NOT NULL PRIMARY KEY, `action_time` datetime(6) NOT NULL, `object_id` longtext NULL, `object_repr` varchar(200) NOT NULL, `action_flag` smallint UNSIGNED NOT NULL, `change_message` longtext NOT NULL, `content_type_id` integer NULL, `user_id` integer NOT NULL); (params None)
+2018-04-22 02:42:44,184 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.029) CREATE TABLE `django_admin_log` (`id` integer AUTO_INCREMENT NOT NULL PRIMARY KEY, `action_time` datetime(6) NOT NULL, `object_id` longtext NULL, `object_repr` varchar(200) NOT NULL, `action_flag` smallint UNSIGNED NOT NULL, `change_message` longtext NOT NULL, `content_type_id` integer NULL, `user_id` integer NOT NULL); args=None
+2018-04-22 02:42:44,187 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) SELECT engine FROM information_schema.tables WHERE table_name = 'django_admin_log'; args=[u'django_admin_log']
+2018-04-22 02:42:44,188 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT engine FROM information_schema.tables WHERE table_name = 'django_admin_log'; args=[u'django_admin_log']
+2018-04-22 02:42:44,191 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) SELECT engine FROM information_schema.tables WHERE table_name = 'django_admin_log'; args=[u'django_admin_log']
+2018-04-22 02:42:44,194 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) SELECT engine FROM information_schema.tables WHERE table_name = 'django_admin_log'; args=[u'django_admin_log']
+2018-04-22 02:42:44,198 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT engine FROM information_schema.tables WHERE table_name = 'django_admin_log'; args=[u'django_admin_log']
+2018-04-22 02:42:44,200 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT engine FROM information_schema.tables WHERE table_name = 'django_admin_log'; args=[u'django_admin_log']
+2018-04-22 02:42:44,203 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) SELECT engine FROM information_schema.tables WHERE table_name = 'django_admin_log'; args=[u'django_admin_log']
+2018-04-22 02:42:44,206 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) SELECT engine FROM information_schema.tables WHERE table_name = 'django_admin_log'; args=[u'django_admin_log']
+2018-04-22 02:42:44,206 [MainThread:3188] [django.db.backends.schema:111] [schema:execute] [DEBUG]- ALTER TABLE `django_admin_log` ADD CONSTRAINT `django_admin_log_content_type_id_c4bce8eb_fk_django_co` FOREIGN KEY (`content_type_id`) REFERENCES `django_content_type` (`id`); (params ())
+2018-04-22 02:42:44,265 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.058) ALTER TABLE `django_admin_log` ADD CONSTRAINT `django_admin_log_content_type_id_c4bce8eb_fk_django_co` FOREIGN KEY (`content_type_id`) REFERENCES `django_content_type` (`id`); args=()
+2018-04-22 02:42:44,265 [MainThread:3188] [django.db.backends.schema:111] [schema:execute] [DEBUG]- ALTER TABLE `django_admin_log` ADD CONSTRAINT `django_admin_log_user_id_c564eba6_fk_blog_user_id` FOREIGN KEY (`user_id`) REFERENCES `blog_user` (`id`); (params ())
+2018-04-22 02:42:44,349 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.084) ALTER TABLE `django_admin_log` ADD CONSTRAINT `django_admin_log_user_id_c564eba6_fk_blog_user_id` FOREIGN KEY (`user_id`) REFERENCES `blog_user` (`id`); args=()
+2018-04-22 02:42:44,354 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.004) SHOW FULL TABLES; args=None
+2018-04-22 02:42:44,355 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) INSERT INTO `django_migrations` (`app`, `name`, `applied`) VALUES ('admin', '0001_initial', '2018-04-21 18:42:44.355000'); args=['admin', u'0001_initial', u'2018-04-21 18:42:44.355000']
+2018-04-22 02:42:44,381 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.004) SHOW FULL TABLES; args=None
+2018-04-22 02:42:44,384 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) INSERT INTO `django_migrations` (`app`, `name`, `applied`) VALUES ('admin', '0002_logentry_remove_auto_add', '2018-04-21 18:42:44.383000'); args=['admin', u'0002_logentry_remove_auto_add', u'2018-04-21 18:42:44.383000']
+2018-04-22 02:42:44,443 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.005) 
+            SELECT kc.`constraint_name`, kc.`column_name`,
+                kc.`referenced_table_name`, kc.`referenced_column_name`
+            FROM information_schema.key_column_usage AS kc
+            WHERE
+                kc.table_schema = DATABASE() AND
+                kc.table_name = 'blog_article'
+        ; args=[u'blog_article']
+2018-04-22 02:42:44,444 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) 
+            SELECT c.constraint_name, c.constraint_type
+            FROM information_schema.table_constraints AS c
+            WHERE
+                c.table_schema = DATABASE() AND
+                c.table_name = 'blog_article'
+        ; args=[u'blog_article']
+2018-04-22 02:42:44,447 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) SHOW INDEX FROM `blog_article`; args=None
+2018-04-22 02:42:44,447 [MainThread:3188] [django.db.backends.schema:111] [schema:execute] [DEBUG]- ALTER TABLE `blog_article` DROP FOREIGN KEY `blog_article_category_id_7e38f15e_fk_blog_category_id`; (params ())
+2018-04-22 02:42:44,463 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.015) ALTER TABLE `blog_article` DROP FOREIGN KEY `blog_article_category_id_7e38f15e_fk_blog_category_id`; args=()
+2018-04-22 02:42:44,463 [MainThread:3188] [django.db.backends.schema:111] [schema:execute] [DEBUG]- ALTER TABLE `blog_article` ADD CONSTRAINT `blog_article_category_id_7e38f15e_fk_blog_category_id` FOREIGN KEY (`category_id`) REFERENCES `blog_category` (`id`); (params ())
+2018-04-22 02:42:44,543 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.079) ALTER TABLE `blog_article` ADD CONSTRAINT `blog_article_category_id_7e38f15e_fk_blog_category_id` FOREIGN KEY (`category_id`) REFERENCES `blog_category` (`id`); args=()
+2018-04-22 02:42:44,644 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) 
+            SELECT kc.`constraint_name`, kc.`column_name`,
+                kc.`referenced_table_name`, kc.`referenced_column_name`
+            FROM information_schema.key_column_usage AS kc
+            WHERE
+                kc.table_schema = DATABASE() AND
+                kc.table_name = 'blog_article_tag'
+        ; args=[u'blog_article_tag']
+2018-04-22 02:42:44,645 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) 
+            SELECT c.constraint_name, c.constraint_type
+            FROM information_schema.table_constraints AS c
+            WHERE
+                c.table_schema = DATABASE() AND
+                c.table_name = 'blog_article_tag'
+        ; args=[u'blog_article_tag']
+2018-04-22 02:42:44,648 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) SHOW INDEX FROM `blog_article_tag`; args=None
+2018-04-22 02:42:44,648 [MainThread:3188] [django.db.backends.schema:111] [schema:execute] [DEBUG]- ALTER TABLE `blog_article_tag` DROP FOREIGN KEY `blog_article_tag_tag_id_f2afe66b_fk_blog_tag_id`; (params ())
+2018-04-22 02:42:44,661 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.011) ALTER TABLE `blog_article_tag` DROP FOREIGN KEY `blog_article_tag_tag_id_f2afe66b_fk_blog_tag_id`; args=()
+2018-04-22 02:42:44,661 [MainThread:3188] [django.db.backends.schema:111] [schema:execute] [DEBUG]- ALTER TABLE `blog_article_tag` ADD CONSTRAINT `blog_article_tag_tag_id_f2afe66b_fk_blog_tag_id` FOREIGN KEY (`tag_id`) REFERENCES `blog_tag` (`id`); (params ())
+2018-04-22 02:42:44,753 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.091) ALTER TABLE `blog_article_tag` ADD CONSTRAINT `blog_article_tag_tag_id_f2afe66b_fk_blog_tag_id` FOREIGN KEY (`tag_id`) REFERENCES `blog_tag` (`id`); args=()
+2018-04-22 02:42:44,759 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.004) 
+            SELECT kc.`constraint_name`, kc.`column_name`,
+                kc.`referenced_table_name`, kc.`referenced_column_name`
+            FROM information_schema.key_column_usage AS kc
+            WHERE
+                kc.table_schema = DATABASE() AND
+                kc.table_name = 'blog_article_tag'
+        ; args=[u'blog_article_tag']
+2018-04-22 02:42:44,763 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) 
+            SELECT c.constraint_name, c.constraint_type
+            FROM information_schema.table_constraints AS c
+            WHERE
+                c.table_schema = DATABASE() AND
+                c.table_name = 'blog_article_tag'
+        ; args=[u'blog_article_tag']
+2018-04-22 02:42:44,765 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SHOW INDEX FROM `blog_article_tag`; args=None
+2018-04-22 02:42:44,766 [MainThread:3188] [django.db.backends.schema:111] [schema:execute] [DEBUG]- ALTER TABLE `blog_article_tag` DROP FOREIGN KEY `blog_article_tag_article_id_8db2395e_fk_blog_article_id`; (params ())
+2018-04-22 02:42:44,780 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.014) ALTER TABLE `blog_article_tag` DROP FOREIGN KEY `blog_article_tag_article_id_8db2395e_fk_blog_article_id`; args=()
+2018-04-22 02:42:44,782 [MainThread:3188] [django.db.backends.schema:111] [schema:execute] [DEBUG]- ALTER TABLE `blog_article_tag` ADD CONSTRAINT `blog_article_tag_article_id_8db2395e_fk_blog_article_id` FOREIGN KEY (`article_id`) REFERENCES `blog_article` (`id`); (params ())
+2018-04-22 02:42:44,865 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.082) ALTER TABLE `blog_article_tag` ADD CONSTRAINT `blog_article_tag_article_id_8db2395e_fk_blog_article_id` FOREIGN KEY (`article_id`) REFERENCES `blog_article` (`id`); args=()
+2018-04-22 02:42:44,904 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.006) 
+            SELECT kc.`constraint_name`, kc.`column_name`,
+                kc.`referenced_table_name`, kc.`referenced_column_name`
+            FROM information_schema.key_column_usage AS kc
+            WHERE
+                kc.table_schema = DATABASE() AND
+                kc.table_name = 'blog_article'
+        ; args=[u'blog_article']
+2018-04-22 02:42:44,904 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) 
+            SELECT c.constraint_name, c.constraint_type
+            FROM information_schema.table_constraints AS c
+            WHERE
+                c.table_schema = DATABASE() AND
+                c.table_name = 'blog_article'
+        ; args=[u'blog_article']
+2018-04-22 02:42:44,907 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SHOW INDEX FROM `blog_article`; args=None
+2018-04-22 02:42:44,908 [MainThread:3188] [django.db.backends.schema:111] [schema:execute] [DEBUG]- ALTER TABLE `blog_article` DROP FOREIGN KEY `blog_article_user_id_5beb0cc1_fk_blog_user_id`; (params ())
+2018-04-22 02:42:44,921 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.013) ALTER TABLE `blog_article` DROP FOREIGN KEY `blog_article_user_id_5beb0cc1_fk_blog_user_id`; args=()
+2018-04-22 02:42:44,921 [MainThread:3188] [django.db.backends.schema:111] [schema:execute] [DEBUG]- ALTER TABLE `blog_article` ADD CONSTRAINT `blog_article_user_id_5beb0cc1_fk_blog_user_id` FOREIGN KEY (`user_id`) REFERENCES `blog_user` (`id`); (params ())
+2018-04-22 02:42:44,980 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.058) ALTER TABLE `blog_article` ADD CONSTRAINT `blog_article_user_id_5beb0cc1_fk_blog_user_id` FOREIGN KEY (`user_id`) REFERENCES `blog_user` (`id`); args=()
+2018-04-22 02:42:45,013 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.004) 
+            SELECT kc.`constraint_name`, kc.`column_name`,
+                kc.`referenced_table_name`, kc.`referenced_column_name`
+            FROM information_schema.key_column_usage AS kc
+            WHERE
+                kc.table_schema = DATABASE() AND
+                kc.table_name = 'blog_comment'
+        ; args=[u'blog_comment']
+2018-04-22 02:42:45,019 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) 
+            SELECT c.constraint_name, c.constraint_type
+            FROM information_schema.table_constraints AS c
+            WHERE
+                c.table_schema = DATABASE() AND
+                c.table_name = 'blog_comment'
+        ; args=[u'blog_comment']
+2018-04-22 02:42:45,022 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SHOW INDEX FROM `blog_comment`; args=None
+2018-04-22 02:42:45,023 [MainThread:3188] [django.db.backends.schema:111] [schema:execute] [DEBUG]- ALTER TABLE `blog_comment` DROP FOREIGN KEY `blog_comment_article_id_3d58bca6_fk_blog_article_id`; (params ())
+2018-04-22 02:42:45,035 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.012) ALTER TABLE `blog_comment` DROP FOREIGN KEY `blog_comment_article_id_3d58bca6_fk_blog_article_id`; args=()
+2018-04-22 02:42:45,036 [MainThread:3188] [django.db.backends.schema:111] [schema:execute] [DEBUG]- ALTER TABLE `blog_comment` ADD CONSTRAINT `blog_comment_article_id_3d58bca6_fk_blog_article_id` FOREIGN KEY (`article_id`) REFERENCES `blog_article` (`id`); (params ())
+2018-04-22 02:42:45,124 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.088) ALTER TABLE `blog_comment` ADD CONSTRAINT `blog_comment_article_id_3d58bca6_fk_blog_article_id` FOREIGN KEY (`article_id`) REFERENCES `blog_article` (`id`); args=()
+2018-04-22 02:42:45,160 [MainThread:3188] [django.db.backends.schema:111] [schema:execute] [DEBUG]- ALTER TABLE `blog_comment` ALTER COLUMN `date_publish` SET DEFAULT %s; (params [u'2018-04-21 18:42:45.160000'])
+2018-04-22 02:42:45,174 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.014) ALTER TABLE `blog_comment` ALTER COLUMN `date_publish` SET DEFAULT '2018-04-21 18:42:45.160000'; args=[u'2018-04-21 18:42:45.160000']
+2018-04-22 02:42:45,174 [MainThread:3188] [django.db.backends.schema:111] [schema:execute] [DEBUG]- ALTER TABLE `blog_comment` ALTER COLUMN `date_publish` DROP DEFAULT; (params ())
+2018-04-22 02:42:45,188 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.014) ALTER TABLE `blog_comment` ALTER COLUMN `date_publish` DROP DEFAULT; args=()
+2018-04-22 02:42:45,207 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) 
+            SELECT kc.`constraint_name`, kc.`column_name`,
+                kc.`referenced_table_name`, kc.`referenced_column_name`
+            FROM information_schema.key_column_usage AS kc
+            WHERE
+                kc.table_schema = DATABASE() AND
+                kc.table_name = 'blog_comment'
+        ; args=[u'blog_comment']
+2018-04-22 02:42:45,209 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) 
+            SELECT c.constraint_name, c.constraint_type
+            FROM information_schema.table_constraints AS c
+            WHERE
+                c.table_schema = DATABASE() AND
+                c.table_name = 'blog_comment'
+        ; args=[u'blog_comment']
+2018-04-22 02:42:45,211 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) SHOW INDEX FROM `blog_comment`; args=None
+2018-04-22 02:42:45,213 [MainThread:3188] [django.db.backends.schema:111] [schema:execute] [DEBUG]- ALTER TABLE `blog_comment` DROP FOREIGN KEY `blog_comment_pid_id_2a2b4cc4_fk_blog_comment_id`; (params ())
+2018-04-22 02:42:45,229 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.015) ALTER TABLE `blog_comment` DROP FOREIGN KEY `blog_comment_pid_id_2a2b4cc4_fk_blog_comment_id`; args=()
+2018-04-22 02:42:45,230 [MainThread:3188] [django.db.backends.schema:111] [schema:execute] [DEBUG]- ALTER TABLE `blog_comment` ADD CONSTRAINT `blog_comment_pid_id_2a2b4cc4_fk_blog_comment_id` FOREIGN KEY (`pid_id`) REFERENCES `blog_comment` (`id`); (params ())
+2018-04-22 02:42:45,309 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.080) ALTER TABLE `blog_comment` ADD CONSTRAINT `blog_comment_pid_id_2a2b4cc4_fk_blog_comment_id` FOREIGN KEY (`pid_id`) REFERENCES `blog_comment` (`id`); args=()
+2018-04-22 02:42:45,335 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.006) 
+            SELECT kc.`constraint_name`, kc.`column_name`,
+                kc.`referenced_table_name`, kc.`referenced_column_name`
+            FROM information_schema.key_column_usage AS kc
+            WHERE
+                kc.table_schema = DATABASE() AND
+                kc.table_name = 'blog_comment'
+        ; args=[u'blog_comment']
+2018-04-22 02:42:45,338 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) 
+            SELECT c.constraint_name, c.constraint_type
+            FROM information_schema.table_constraints AS c
+            WHERE
+                c.table_schema = DATABASE() AND
+                c.table_name = 'blog_comment'
+        ; args=[u'blog_comment']
+2018-04-22 02:42:45,338 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SHOW INDEX FROM `blog_comment`; args=None
+2018-04-22 02:42:45,339 [MainThread:3188] [django.db.backends.schema:111] [schema:execute] [DEBUG]- ALTER TABLE `blog_comment` DROP FOREIGN KEY `blog_comment_user_id_59a54155_fk_blog_user_id`; (params ())
+2018-04-22 02:42:45,351 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.012) ALTER TABLE `blog_comment` DROP FOREIGN KEY `blog_comment_user_id_59a54155_fk_blog_user_id`; args=()
+2018-04-22 02:42:45,351 [MainThread:3188] [django.db.backends.schema:111] [schema:execute] [DEBUG]- ALTER TABLE `blog_comment` ADD CONSTRAINT `blog_comment_user_id_59a54155_fk_blog_user_id` FOREIGN KEY (`user_id`) REFERENCES `blog_user` (`id`); (params ())
+2018-04-22 02:42:45,420 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.066) ALTER TABLE `blog_comment` ADD CONSTRAINT `blog_comment_user_id_59a54155_fk_blog_user_id` FOREIGN KEY (`user_id`) REFERENCES `blog_user` (`id`); args=()
+2018-04-22 02:42:45,513 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.004) SHOW FULL TABLES; args=None
+2018-04-22 02:42:45,515 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) INSERT INTO `django_migrations` (`app`, `name`, `applied`) VALUES ('blog', '0002_auto_20180422_0242', '2018-04-21 18:42:45.514000'); args=['blog', u'0002_auto_20180422_0242', u'2018-04-21 18:42:45.514000']
+2018-04-22 02:42:45,526 [MainThread:3188] [django.db.backends.schema:111] [schema:execute] [DEBUG]- CREATE TABLE `django_session` (`session_key` varchar(40) NOT NULL PRIMARY KEY, `session_data` longtext NOT NULL, `expire_date` datetime(6) NOT NULL); (params None)
+2018-04-22 02:42:45,563 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.036) CREATE TABLE `django_session` (`session_key` varchar(40) NOT NULL PRIMARY KEY, `session_data` longtext NOT NULL, `expire_date` datetime(6) NOT NULL); args=None
+2018-04-22 02:42:45,566 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.003) SELECT engine FROM information_schema.tables WHERE table_name = 'django_session'; args=[u'django_session']
+2018-04-22 02:42:45,569 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) SELECT engine FROM information_schema.tables WHERE table_name = 'django_session'; args=[u'django_session']
+2018-04-22 02:42:45,572 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT engine FROM information_schema.tables WHERE table_name = 'django_session'; args=[u'django_session']
+2018-04-22 02:42:45,572 [MainThread:3188] [django.db.backends.schema:111] [schema:execute] [DEBUG]- CREATE INDEX `django_session_expire_date_a5c62663` ON `django_session` (`expire_date`); (params ())
+2018-04-22 02:42:45,602 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.029) CREATE INDEX `django_session_expire_date_a5c62663` ON `django_session` (`expire_date`); args=()
+2018-04-22 02:42:45,608 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.005) SHOW FULL TABLES; args=None
+2018-04-22 02:42:45,611 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) INSERT INTO `django_migrations` (`app`, `name`, `applied`) VALUES ('sessions', '0001_initial', '2018-04-21 18:42:45.610000'); args=['sessions', u'0001_initial', u'2018-04-21 18:42:45.610000']
+2018-04-22 02:42:45,621 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.004) SHOW FULL TABLES; args=None
+2018-04-22 02:42:45,622 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+2018-04-22 02:42:45,648 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) SELECT `django_content_type`.`id`, `django_content_type`.`app_label`, `django_content_type`.`model` FROM `django_content_type` WHERE (`django_content_type`.`model` = 'logentry' AND `django_content_type`.`app_label` = 'admin'); args=('logentry', 'admin')
+2018-04-22 02:42:45,651 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT `django_content_type`.`id`, `django_content_type`.`app_label`, `django_content_type`.`model` FROM `django_content_type` WHERE (`django_content_type`.`model` = 'logentry' AND `django_content_type`.`app_label` = 'admin'); args=('logentry', 'admin')
+2018-04-22 02:42:45,654 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) INSERT INTO `django_content_type` (`app_label`, `model`) VALUES ('admin', 'logentry'); args=['admin', 'logentry']
+2018-04-22 02:42:45,676 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.014) SELECT `auth_permission`.`content_type_id`, `auth_permission`.`codename` FROM `auth_permission` INNER JOIN `django_content_type` ON (`auth_permission`.`content_type_id` = `django_content_type`.`id`) WHERE `auth_permission`.`content_type_id` IN (1) ORDER BY `django_content_type`.`app_label` ASC, `django_content_type`.`model` ASC, `auth_permission`.`codename` ASC; args=(1,)
+2018-04-22 02:42:45,700 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.021) INSERT INTO `auth_permission` (`name`, `content_type_id`, `codename`) VALUES ('Can add log entry', 1, 'add_logentry'), ('Can change log entry', 1, 'change_logentry'), ('Can delete log entry', 1, 'delete_logentry'); args=(u'Can add log entry', 1, u'add_logentry', u'Can change log entry', 1, u'change_logentry', u'Can delete log entry', 1, u'delete_logentry')
+2018-04-22 02:42:45,709 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT `django_content_type`.`id`, `django_content_type`.`app_label`, `django_content_type`.`model` FROM `django_content_type` WHERE `django_content_type`.`app_label` = 'admin'; args=('admin',)
+2018-04-22 02:42:45,713 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT `django_content_type`.`id`, `django_content_type`.`app_label`, `django_content_type`.`model` FROM `django_content_type` WHERE (`django_content_type`.`model` = 'group' AND `django_content_type`.`app_label` = 'auth'); args=('group', 'auth')
+2018-04-22 02:42:45,714 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT `django_content_type`.`id`, `django_content_type`.`app_label`, `django_content_type`.`model` FROM `django_content_type` WHERE (`django_content_type`.`model` = 'group' AND `django_content_type`.`app_label` = 'auth'); args=('group', 'auth')
+2018-04-22 02:42:45,717 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) INSERT INTO `django_content_type` (`app_label`, `model`) VALUES ('auth', 'group'); args=['auth', 'group']
+2018-04-22 02:42:45,723 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT `django_content_type`.`id`, `django_content_type`.`app_label`, `django_content_type`.`model` FROM `django_content_type` WHERE (`django_content_type`.`model` = 'permission' AND `django_content_type`.`app_label` = 'auth'); args=('permission', 'auth')
+2018-04-22 02:42:45,724 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT `django_content_type`.`id`, `django_content_type`.`app_label`, `django_content_type`.`model` FROM `django_content_type` WHERE (`django_content_type`.`model` = 'permission' AND `django_content_type`.`app_label` = 'auth'); args=('permission', 'auth')
+2018-04-22 02:42:45,727 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) INSERT INTO `django_content_type` (`app_label`, `model`) VALUES ('auth', 'permission'); args=['auth', 'permission']
+2018-04-22 02:42:45,739 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT `auth_permission`.`content_type_id`, `auth_permission`.`codename` FROM `auth_permission` INNER JOIN `django_content_type` ON (`auth_permission`.`content_type_id` = `django_content_type`.`id`) WHERE `auth_permission`.`content_type_id` IN (2, 3) ORDER BY `django_content_type`.`app_label` ASC, `django_content_type`.`model` ASC, `auth_permission`.`codename` ASC; args=(2, 3)
+2018-04-22 02:42:45,743 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) INSERT INTO `auth_permission` (`name`, `content_type_id`, `codename`) VALUES ('Can add group', 2, 'add_group'), ('Can change group', 2, 'change_group'), ('Can delete group', 2, 'delete_group'), ('Can add permission', 3, 'add_permission'), ('Can change permission', 3, 'change_permission'), ('Can delete permission', 3, 'delete_permission'); args=(u'Can add group', 2, u'add_group', u'Can change group', 2, u'change_group', u'Can delete group', 2, u'delete_group', u'Can add permission', 3, u'add_permission', u'Can change permission', 3, u'change_permission', u'Can delete permission', 3, u'delete_permission')
+2018-04-22 02:42:45,746 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT `django_content_type`.`id`, `django_content_type`.`app_label`, `django_content_type`.`model` FROM `django_content_type` WHERE `django_content_type`.`app_label` = 'auth'; args=('auth',)
+2018-04-22 02:42:45,747 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT `django_content_type`.`id`, `django_content_type`.`app_label`, `django_content_type`.`model` FROM `django_content_type` WHERE (`django_content_type`.`model` = 'contenttype' AND `django_content_type`.`app_label` = 'contenttypes'); args=('contenttype', 'contenttypes')
+2018-04-22 02:42:45,750 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT `django_content_type`.`id`, `django_content_type`.`app_label`, `django_content_type`.`model` FROM `django_content_type` WHERE (`django_content_type`.`model` = 'contenttype' AND `django_content_type`.`app_label` = 'contenttypes'); args=('contenttype', 'contenttypes')
+2018-04-22 02:42:45,752 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) INSERT INTO `django_content_type` (`app_label`, `model`) VALUES ('contenttypes', 'contenttype'); args=['contenttypes', 'contenttype']
+2018-04-22 02:42:45,756 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT `auth_permission`.`content_type_id`, `auth_permission`.`codename` FROM `auth_permission` INNER JOIN `django_content_type` ON (`auth_permission`.`content_type_id` = `django_content_type`.`id`) WHERE `auth_permission`.`content_type_id` IN (4) ORDER BY `django_content_type`.`app_label` ASC, `django_content_type`.`model` ASC, `auth_permission`.`codename` ASC; args=(4,)
+2018-04-22 02:42:45,759 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) INSERT INTO `auth_permission` (`name`, `content_type_id`, `codename`) VALUES ('Can add content type', 4, 'add_contenttype'), ('Can change content type', 4, 'change_contenttype'), ('Can delete content type', 4, 'delete_contenttype'); args=(u'Can add content type', 4, u'add_contenttype', u'Can change content type', 4, u'change_contenttype', u'Can delete content type', 4, u'delete_contenttype')
+2018-04-22 02:42:45,766 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT `django_content_type`.`id`, `django_content_type`.`app_label`, `django_content_type`.`model` FROM `django_content_type` WHERE `django_content_type`.`app_label` = 'contenttypes'; args=('contenttypes',)
+2018-04-22 02:42:45,769 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT `django_content_type`.`id`, `django_content_type`.`app_label`, `django_content_type`.`model` FROM `django_content_type` WHERE (`django_content_type`.`model` = 'session' AND `django_content_type`.`app_label` = 'sessions'); args=('session', 'sessions')
+2018-04-22 02:42:45,772 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT `django_content_type`.`id`, `django_content_type`.`app_label`, `django_content_type`.`model` FROM `django_content_type` WHERE (`django_content_type`.`model` = 'session' AND `django_content_type`.`app_label` = 'sessions'); args=('session', 'sessions')
+2018-04-22 02:42:45,775 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) INSERT INTO `django_content_type` (`app_label`, `model`) VALUES ('sessions', 'session'); args=['sessions', 'session']
+2018-04-22 02:42:45,780 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT `auth_permission`.`content_type_id`, `auth_permission`.`codename` FROM `auth_permission` INNER JOIN `django_content_type` ON (`auth_permission`.`content_type_id` = `django_content_type`.`id`) WHERE `auth_permission`.`content_type_id` IN (5) ORDER BY `django_content_type`.`app_label` ASC, `django_content_type`.`model` ASC, `auth_permission`.`codename` ASC; args=(5,)
+2018-04-22 02:42:45,783 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) INSERT INTO `auth_permission` (`name`, `content_type_id`, `codename`) VALUES ('Can add session', 5, 'add_session'), ('Can change session', 5, 'change_session'), ('Can delete session', 5, 'delete_session'); args=(u'Can add session', 5, u'add_session', u'Can change session', 5, u'change_session', u'Can delete session', 5, u'delete_session')
+2018-04-22 02:42:45,789 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT `django_content_type`.`id`, `django_content_type`.`app_label`, `django_content_type`.`model` FROM `django_content_type` WHERE `django_content_type`.`app_label` = 'sessions'; args=('sessions',)
+2018-04-22 02:42:45,792 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT `django_content_type`.`id`, `django_content_type`.`app_label`, `django_content_type`.`model` FROM `django_content_type` WHERE (`django_content_type`.`model` = 'links' AND `django_content_type`.`app_label` = 'blog'); args=('links', 'blog')
+2018-04-22 02:42:45,796 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT `django_content_type`.`id`, `django_content_type`.`app_label`, `django_content_type`.`model` FROM `django_content_type` WHERE (`django_content_type`.`model` = 'links' AND `django_content_type`.`app_label` = 'blog'); args=('links', 'blog')
+2018-04-22 02:42:45,799 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) INSERT INTO `django_content_type` (`app_label`, `model`) VALUES ('blog', 'links'); args=['blog', 'links']
+2018-04-22 02:42:45,803 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT `django_content_type`.`id`, `django_content_type`.`app_label`, `django_content_type`.`model` FROM `django_content_type` WHERE (`django_content_type`.`model` = 'comment' AND `django_content_type`.`app_label` = 'blog'); args=('comment', 'blog')
+2018-04-22 02:42:45,805 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT `django_content_type`.`id`, `django_content_type`.`app_label`, `django_content_type`.`model` FROM `django_content_type` WHERE (`django_content_type`.`model` = 'comment' AND `django_content_type`.`app_label` = 'blog'); args=('comment', 'blog')
+2018-04-22 02:42:45,809 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) INSERT INTO `django_content_type` (`app_label`, `model`) VALUES ('blog', 'comment'); args=['blog', 'comment']
+2018-04-22 02:42:45,812 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT `django_content_type`.`id`, `django_content_type`.`app_label`, `django_content_type`.`model` FROM `django_content_type` WHERE (`django_content_type`.`model` = 'ad' AND `django_content_type`.`app_label` = 'blog'); args=('ad', 'blog')
+2018-04-22 02:42:45,816 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT `django_content_type`.`id`, `django_content_type`.`app_label`, `django_content_type`.`model` FROM `django_content_type` WHERE (`django_content_type`.`model` = 'ad' AND `django_content_type`.`app_label` = 'blog'); args=('ad', 'blog')
+2018-04-22 02:42:45,819 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) INSERT INTO `django_content_type` (`app_label`, `model`) VALUES ('blog', 'ad'); args=['blog', 'ad']
+2018-04-22 02:42:45,822 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT `django_content_type`.`id`, `django_content_type`.`app_label`, `django_content_type`.`model` FROM `django_content_type` WHERE (`django_content_type`.`model` = 'category' AND `django_content_type`.`app_label` = 'blog'); args=('category', 'blog')
+2018-04-22 02:42:45,825 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT `django_content_type`.`id`, `django_content_type`.`app_label`, `django_content_type`.`model` FROM `django_content_type` WHERE (`django_content_type`.`model` = 'category' AND `django_content_type`.`app_label` = 'blog'); args=('category', 'blog')
+2018-04-22 02:42:45,826 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) INSERT INTO `django_content_type` (`app_label`, `model`) VALUES ('blog', 'category'); args=['blog', 'category']
+2018-04-22 02:42:45,832 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT `django_content_type`.`id`, `django_content_type`.`app_label`, `django_content_type`.`model` FROM `django_content_type` WHERE (`django_content_type`.`model` = 'user' AND `django_content_type`.`app_label` = 'blog'); args=('user', 'blog')
+2018-04-22 02:42:45,835 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT `django_content_type`.`id`, `django_content_type`.`app_label`, `django_content_type`.`model` FROM `django_content_type` WHERE (`django_content_type`.`model` = 'user' AND `django_content_type`.`app_label` = 'blog'); args=('user', 'blog')
+2018-04-22 02:42:45,836 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) INSERT INTO `django_content_type` (`app_label`, `model`) VALUES ('blog', 'user'); args=['blog', 'user']
+2018-04-22 02:42:45,842 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT `django_content_type`.`id`, `django_content_type`.`app_label`, `django_content_type`.`model` FROM `django_content_type` WHERE (`django_content_type`.`model` = 'article' AND `django_content_type`.`app_label` = 'blog'); args=('article', 'blog')
+2018-04-22 02:42:45,844 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT `django_content_type`.`id`, `django_content_type`.`app_label`, `django_content_type`.`model` FROM `django_content_type` WHERE (`django_content_type`.`model` = 'article' AND `django_content_type`.`app_label` = 'blog'); args=('article', 'blog')
+2018-04-22 02:42:45,845 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) INSERT INTO `django_content_type` (`app_label`, `model`) VALUES ('blog', 'article'); args=['blog', 'article']
+2018-04-22 02:42:45,852 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT `django_content_type`.`id`, `django_content_type`.`app_label`, `django_content_type`.`model` FROM `django_content_type` WHERE (`django_content_type`.`model` = 'tag' AND `django_content_type`.`app_label` = 'blog'); args=('tag', 'blog')
+2018-04-22 02:42:45,855 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT `django_content_type`.`id`, `django_content_type`.`app_label`, `django_content_type`.`model` FROM `django_content_type` WHERE (`django_content_type`.`model` = 'tag' AND `django_content_type`.`app_label` = 'blog'); args=('tag', 'blog')
+2018-04-22 02:42:45,858 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) INSERT INTO `django_content_type` (`app_label`, `model`) VALUES ('blog', 'tag'); args=['blog', 'tag']
+2018-04-22 02:42:45,868 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT `auth_permission`.`content_type_id`, `auth_permission`.`codename` FROM `auth_permission` INNER JOIN `django_content_type` ON (`auth_permission`.`content_type_id` = `django_content_type`.`id`) WHERE `auth_permission`.`content_type_id` IN (6, 7, 8, 9, 10, 11, 12) ORDER BY `django_content_type`.`app_label` ASC, `django_content_type`.`model` ASC, `auth_permission`.`codename` ASC; args=(6, 7, 8, 9, 10, 11, 12)
+2018-04-22 02:42:45,872 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) INSERT INTO `auth_permission` (`name`, `content_type_id`, `codename`) VALUES ('Can add 友情链接', 6, 'add_links'), ('Can change 友情链接', 6, 'change_links'), ('Can delete 友情链接', 6, 'delete_links'), ('Can add 评论', 7, 'add_comment'), ('Can change 评论', 7, 'change_comment'), ('Can delete 评论', 7, 'delete_comment'), ('Can add 广告', 8, 'add_ad'), ('Can change 广告', 8, 'change_ad'), ('Can delete 广告', 8, 'delete_ad'), ('Can add 分类', 9, 'add_category'), ('Can change 分类', 9, 'change_category'), ('Can delete 分类', 9, 'delete_category'), ('Can add 用户', 10, 'add_user'), ('Can change 用户', 10, 'change_user'), ('Can delete 用户', 10, 'delete_user'), ('Can add 文章', 11, 'add_article'), ('Can change 文章', 11, 'change_article'), ('Can delete 文章', 11, 'delete_article'), ('Can add 标签', 12, 'add_tag'), ('Can change 标签', 12, 'change_tag'), ('Can delete 标签', 12, 'delete_tag'); args=(u'Can add \u53cb\u60c5\u94fe\u63a5', 6, u'add_links', u'Can change \u53cb\u60c5\u94fe\u63a5', 6, u'change_links', u'Can delete \u53cb\u60c5\u94fe\u63a5', 6, u'delete_links', u'Can add \u8bc4\u8bba', 7, u'add_comment', u'Can change \u8bc4\u8bba', 7, u'change_comment', u'Can delete \u8bc4\u8bba', 7, u'delete_comment', u'Can add \u5e7f\u544a', 8, u'add_ad', u'Can change \u5e7f\u544a', 8, u'change_ad', u'Can delete \u5e7f\u544a', 8, u'delete_ad', u'Can add \u5206\u7c7b', 9, u'add_category', u'Can change \u5206\u7c7b', 9, u'change_category', u'Can delete \u5206\u7c7b', 9, u'delete_category', u'Can add \u7528\u6237', 10, u'add_user', u'Can change \u7528\u6237', 10, u'change_user', u'Can delete \u7528\u6237', 10, u'delete_user', u'Can add \u6587\u7ae0', 11, u'add_article', u'Can change \u6587\u7ae0', 11, u'change_article', u'Can delete \u6587\u7ae0', 11, u'delete_article', u'Can add \u6807\u7b7e', 12, u'add_tag', u'Can change \u6807\u7b7e', 12, u'change_tag', u'Can delete \u6807\u7b7e', 12, u'delete_tag')
+2018-04-22 02:42:45,878 [MainThread:3188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT `django_content_type`.`id`, `django_content_type`.`app_label`, `django_content_type`.`model` FROM `django_content_type` WHERE `django_content_type`.`app_label` = 'blog'; args=('blog',)
+2018-04-22 03:41:51,168 [Dummy-1:7500] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+2018-04-22 03:41:51,171 [Dummy-1:7500] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT VERSION(); args=None
+2018-04-22 03:41:51,279 [Dummy-1:7500] [django.db.backends:90] [utils:execute] [DEBUG]- (0.008) SHOW FULL TABLES; args=None
+2018-04-22 03:41:51,296 [Dummy-1:7500] [django.db.backends:90] [utils:execute] [DEBUG]- (0.009) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+2018-04-22 03:42:04,308 [Thread-2:9040] [blog.views:26] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2018-04-22 03:42:04,424 [Thread-2:9040] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 14933
+2018-04-22 03:42:04,591 [Thread-3:7276] [django.template:925] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "D:\python1704-linux\Blog_django\env_blog_2.7\lib\site-packages\django\template\base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+2018-04-22 03:42:04,594 [Thread-3:7276] [django.server:124] [basehttp:log_message] [WARNING]- "GET /images/a1.jpg HTTP/1.1" 404 2090
+2018-04-22 03:42:04,602 [Thread-4:3276] [django.template:925] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "D:\python1704-linux\Blog_django\env_blog_2.7\lib\site-packages\django\template\base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+2018-04-22 03:42:04,605 [Thread-4:3276] [django.server:124] [basehttp:log_message] [WARNING]- "GET /images/a2.jpg HTTP/1.1" 404 2090
+2018-04-22 03:42:04,621 [Thread-5:8412] [django.template:925] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "D:\python1704-linux\Blog_django\env_blog_2.7\lib\site-packages\django\template\base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+2018-04-22 03:42:04,621 [Thread-6:3556] [django.template:925] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "D:\python1704-linux\Blog_django\env_blog_2.7\lib\site-packages\django\template\base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+2018-04-22 03:42:04,624 [Thread-5:8412] [django.server:124] [basehttp:log_message] [WARNING]- "GET /images/a4.jpg HTTP/1.1" 404 2090
+2018-04-22 03:42:04,625 [Thread-6:3556] [django.server:124] [basehttp:log_message] [WARNING]- "GET /images/a3.jpg HTTP/1.1" 404 2090
+2018-04-22 03:42:04,920 [Thread-7:3208] [django.template:925] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "D:\python1704-linux\Blog_django\env_blog_2.7\lib\site-packages\django\template\base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+2018-04-22 03:42:04,923 [Thread-7:3208] [django.server:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2084
