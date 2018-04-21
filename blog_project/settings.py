@@ -64,6 +64,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'blog.views.global_setting',
             ],
         },
     },
@@ -123,6 +124,14 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR,'static'),
 )
+
+# 网站的基本信息配置
+SITE_NAME = "缪超青的个人博客"
+SITE_DESC = "专注Python开发,欢迎和大流"
+WEIBO_SINA = "http://weibo.sina.com/maiochoa"
+WEIBO_TENCENT = "http://weibo.qq.com/miaochao"
+PRO_RSS = "http://www.baidu.com"
+PRO_EMAIL = "419666193@qq.com"
 
 # 自定义日志输出信息
 LOGGING = {
