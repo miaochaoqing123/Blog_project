@@ -6710,3 +6710,17 @@ Traceback (most recent call last):
     (bit, current))  # missing attribute
 django.template.base.VariableDoesNotExist: Failed lookup for key [name] in '<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
 2018-04-23 23:00:43,130 [Thread-44:11432] [django.server:124] [basehttp:log_message] [WARNING]- "GET /images/a1.jpg HTTP/1.1" 404 2379
+2018-04-23 23:05:41,697 [Thread-56:11548] [blog.views:26] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2018-04-23 23:05:41,701 [Thread-56:11548] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 14965
+2018-04-23 23:05:41,845 [Thread-57:3676] [django.server:124] [basehttp:log_message] [INFO]- "GET /static/images/a1.jpg HTTP/1.1" 200 130712
+2018-04-23 23:05:41,863 [Thread-60:5840] [django.server:124] [basehttp:log_message] [INFO]- "GET /static/images/a4.jpg HTTP/1.1" 200 101551
+2018-04-23 23:05:41,881 [Thread-58:5164] [django.server:124] [basehttp:log_message] [INFO]- "GET /static/images/a2.jpg HTTP/1.1" 200 75249
+2018-04-23 23:05:41,883 [Thread-59:12560] [django.server:124] [basehttp:log_message] [INFO]- "GET /static/images/a3.jpg HTTP/1.1" 200 244248
+2018-04-23 23:38:22,265 [Thread-62:11500] [blog.views:26] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2018-04-23 23:38:22,271 [Thread-62:11500] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 14992
+2018-04-23 23:38:32,229 [Thread-63:13032] [blog.views:26] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2018-04-23 23:38:32,238 [Thread-63:13032] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 14992
+2018-04-23 23:42:36,022 [Thread-69:7904] [blog.views:26] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2018-04-23 23:42:36,033 [Thread-69:7904] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 14993
+2018-04-23 23:42:38,598 [Thread-70:12300] [blog.views:26] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2018-04-23 23:42:38,603 [Thread-70:12300] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 14993

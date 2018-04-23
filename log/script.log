@@ -60,3 +60,8 @@ TypeError: global_setting() takes 0 positional arguments but 1 was given
 2018-04-23 12:40:43,894 [Thread-7:9396] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
 2018-04-23 20:08:06,092 [Thread-11:10716] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
 2018-04-23 22:13:07,997 [Thread-11:13276] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2018-04-23 22:59:44,740 [Thread-40:12968] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2018-04-23 22:59:44,774 [Thread-41:12816] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2018-04-23 22:59:44,780 [Thread-42:6652] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2018-04-23 22:59:44,787 [Thread-43:4628] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2018-04-23 23:00:43,128 [Thread-44:11432] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
