@@ -2,7 +2,9 @@
 import logging
 from django.shortcuts import render
 from django.conf import settings
-
+from blog.models import *
+# 导入分页的库及类
+from django.core.paginator import Paginator,InvalidPage,EmptyPage,PageNotAnInteger
 
 logger = logging.getLogger("blog.views")
 
@@ -20,9 +22,21 @@ def global_setting(request):
 
 def index(request):
     try:
-        file = open("sss.txt","r")
-
+        # 分类信息获取,(导航数据)
+        category_list = Category.objects.all()[:2]
+        # 广告数据(作业)
+        # 最新文章数据
+        article_list = Article.objects.all()
+        paginator = Paginator(article_list,2)
+        try:
+            page = int(request.GET.get('page',1))
+            article_list = paginator.page(page)
+        except (EmptyPage,InvalidPage,PageNotAnInteger):
+            article_list = paginator.page(1)
     except Exception as e:
         logger.error(e)
-
-    return render(request,'index.html',locals())
+    context = {
+        'category_list': category_list,
+        'article_list':article_list,
+    }
+    return render(request,'index.html',context=context)
